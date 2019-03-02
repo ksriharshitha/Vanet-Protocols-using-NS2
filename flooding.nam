@@ -1,0 +1,833 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t * -a 17 -s 17 -S UP -v circle -c black -i black
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 18 -s 18 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 20 -s 20 -S UP -v circle -c black -i black
+n -t * -a 19 -s 19 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v circle -c black -i black
+n -t * -a 21 -s 21 -S UP -v circle -c black -i black
+n -t * -a 3 -s 3 -S UP -v circle -c black -i black
+n -t * -a 22 -s 22 -S UP -v circle -c black -i black
+n -t * -a 4 -s 4 -S UP -v circle -c black -i black
+n -t * -a 23 -s 23 -S UP -v circle -c black -i black
+n -t * -a 5 -s 5 -S UP -v circle -c black -i black
+n -t * -a 24 -s 24 -S UP -v circle -c black -i black
+n -t * -a 6 -s 6 -S UP -v circle -c black -i black
+n -t * -a 25 -s 25 -S UP -v circle -c black -i black
+n -t * -a 7 -s 7 -S UP -v circle -c black -i black
+n -t * -a 26 -s 26 -S UP -v circle -c black -i black
+n -t * -a 8 -s 8 -S UP -v circle -c black -i black
+n -t * -a 27 -s 27 -S UP -v circle -c black -i black
+n -t * -a 9 -s 9 -S UP -v circle -c black -i black
+n -t * -a 10 -s 10 -S UP -v circle -c black -i black
+n -t * -a 28 -s 28 -S UP -v circle -c black -i black
+n -t * -a 11 -s 11 -S UP -v circle -c black -i black
+n -t * -a 30 -s 30 -S UP -v circle -c black -i black
+n -t * -a 29 -s 29 -S UP -v circle -c black -i black
+n -t * -a 12 -s 12 -S UP -v circle -c black -i black
+n -t * -a 31 -s 31 -S UP -v circle -c black -i black
+n -t * -a 13 -s 13 -S UP -v circle -c black -i black
+n -t * -a 32 -s 32 -S UP -v circle -c black -i black
+n -t * -a 14 -s 14 -S UP -v circle -c black -i black
+n -t * -a 33 -s 33 -S UP -v circle -c black -i black
+n -t * -a 15 -s 15 -S UP -v circle -c black -i black
+n -t * -a 34 -s 34 -S UP -v circle -c black -i black
+n -t * -a 16 -s 16 -S UP -v circle -c black -i black
+l -t * -s 0 -d 1 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 1 -d 2 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 2 -d 3 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 3 -d 4 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 4 -d 5 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 5 -d 6 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 6 -d 0 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 0 -d 9 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 7 -d 8 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 8 -d 9 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 9 -d 10 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 10 -d 11 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 11 -d 12 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 12 -d 13 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 13 -d 7 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 7 -d 16 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 10 -d 29 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 14 -d 15 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 15 -d 16 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 16 -d 17 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 17 -d 18 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 18 -d 19 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 19 -d 20 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 20 -d 14 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 14 -d 23 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 21 -d 22 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 22 -d 23 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 23 -d 24 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 24 -d 25 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 25 -d 26 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 26 -d 27 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 27 -d 21 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 21 -d 30 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 24 -d 8 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 28 -d 29 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 29 -d 30 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 30 -d 31 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 31 -d 32 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 32 -d 33 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 33 -d 34 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 34 -d 28 -S UP -r 2000000 -D 0.014999999999999999 -c black
+l -t * -s 28 -d 2 -S UP -r 2000000 -D 0.014999999999999999 -c black
+v -t 0.2 -e sim_annotation 0.2 1 Node 5 is sending {1:first message}
++ -t 0.2 -s 5 -d 4 -p message -e 900 -c 0 -i 0 -a 0 -x {5.42 4.42 -1 ------- null}
+- -t 0.2 -s 5 -d 4 -p message -e 900 -c 0 -i 0 -a 0 -x {5.42 4.42 -1 ------- null}
+h -t 0.2 -s 5 -d 4 -p message -e 900 -c 0 -i 0 -a 0 -x {5.42 4.42 -1 ------- null}
++ -t 0.2 -s 5 -d 6 -p message -e 900 -c 0 -i 1 -a 0 -x {5.42 6.42 -1 ------- null}
+- -t 0.2 -s 5 -d 6 -p message -e 900 -c 0 -i 1 -a 0 -x {5.42 6.42 -1 ------- null}
+h -t 0.2 -s 5 -d 6 -p message -e 900 -c 0 -i 1 -a 0 -x {5.42 6.42 -1 ------- null}
+r -t 0.2186 -s 5 -d 4 -p message -e 900 -c 0 -i 0 -a 0 -x {5.42 4.42 -1 ------- null}
+v -t 0.2186 -e sim_annotation 0.2186 2 Node 4 received {1:first message}
++ -t 0.2186 -s 4 -d 3 -p message -e 900 -c 0 -i 2 -a 0 -x {4.42 3.42 -1 ------- null}
+- -t 0.2186 -s 4 -d 3 -p message -e 900 -c 0 -i 2 -a 0 -x {4.42 3.42 -1 ------- null}
+h -t 0.2186 -s 4 -d 3 -p message -e 900 -c 0 -i 2 -a 0 -x {4.42 3.42 -1 ------- null}
+r -t 0.2186 -s 5 -d 6 -p message -e 900 -c 0 -i 1 -a 0 -x {5.42 6.42 -1 ------- null}
+v -t 0.2186 -e sim_annotation 0.2186 3 Node 6 received {1:first message}
++ -t 0.2186 -s 6 -d 0 -p message -e 900 -c 0 -i 3 -a 0 -x {6.42 0.42 -1 ------- null}
+- -t 0.2186 -s 6 -d 0 -p message -e 900 -c 0 -i 3 -a 0 -x {6.42 0.42 -1 ------- null}
+h -t 0.2186 -s 6 -d 0 -p message -e 900 -c 0 -i 3 -a 0 -x {6.42 0.42 -1 ------- null}
+r -t 0.2372 -s 4 -d 3 -p message -e 900 -c 0 -i 2 -a 0 -x {4.42 3.42 -1 ------- null}
+v -t 0.2372 -e sim_annotation 0.2372 4 Node 3 received {1:first message}
++ -t 0.2372 -s 3 -d 2 -p message -e 900 -c 0 -i 4 -a 0 -x {3.42 2.42 -1 ------- null}
+- -t 0.2372 -s 3 -d 2 -p message -e 900 -c 0 -i 4 -a 0 -x {3.42 2.42 -1 ------- null}
+h -t 0.2372 -s 3 -d 2 -p message -e 900 -c 0 -i 4 -a 0 -x {3.42 2.42 -1 ------- null}
+r -t 0.2372 -s 6 -d 0 -p message -e 900 -c 0 -i 3 -a 0 -x {6.42 0.42 -1 ------- null}
+v -t 0.2372 -e sim_annotation 0.2372 5 Node 0 received {1:first message}
++ -t 0.2372 -s 0 -d 1 -p message -e 900 -c 0 -i 5 -a 0 -x {0.42 1.42 -1 ------- null}
+- -t 0.2372 -s 0 -d 1 -p message -e 900 -c 0 -i 5 -a 0 -x {0.42 1.42 -1 ------- null}
+h -t 0.2372 -s 0 -d 1 -p message -e 900 -c 0 -i 5 -a 0 -x {0.42 1.42 -1 ------- null}
++ -t 0.2372 -s 0 -d 9 -p message -e 900 -c 0 -i 6 -a 0 -x {0.42 9.42 -1 ------- null}
+- -t 0.2372 -s 0 -d 9 -p message -e 900 -c 0 -i 6 -a 0 -x {0.42 9.42 -1 ------- null}
+h -t 0.2372 -s 0 -d 9 -p message -e 900 -c 0 -i 6 -a 0 -x {0.42 9.42 -1 ------- null}
+r -t 0.2558 -s 3 -d 2 -p message -e 900 -c 0 -i 4 -a 0 -x {3.42 2.42 -1 ------- null}
+v -t 0.2558 -e sim_annotation 0.2558 6 Node 2 received {1:first message}
++ -t 0.2558 -s 2 -d 1 -p message -e 900 -c 0 -i 7 -a 0 -x {2.42 1.42 -1 ------- null}
+- -t 0.2558 -s 2 -d 1 -p message -e 900 -c 0 -i 7 -a 0 -x {2.42 1.42 -1 ------- null}
+h -t 0.2558 -s 2 -d 1 -p message -e 900 -c 0 -i 7 -a 0 -x {2.42 1.42 -1 ------- null}
++ -t 0.2558 -s 2 -d 28 -p message -e 900 -c 0 -i 8 -a 0 -x {2.42 28.42 -1 ------- null}
+- -t 0.2558 -s 2 -d 28 -p message -e 900 -c 0 -i 8 -a 0 -x {2.42 28.42 -1 ------- null}
+h -t 0.2558 -s 2 -d 28 -p message -e 900 -c 0 -i 8 -a 0 -x {2.42 28.42 -1 ------- null}
+r -t 0.2558 -s 0 -d 1 -p message -e 900 -c 0 -i 5 -a 0 -x {0.42 1.42 -1 ------- null}
+v -t 0.2558 -e sim_annotation 0.2558 7 Node 1 received {1:first message}
++ -t 0.2558 -s 1 -d 2 -p message -e 900 -c 0 -i 9 -a 0 -x {1.42 2.42 -1 ------- null}
+- -t 0.2558 -s 1 -d 2 -p message -e 900 -c 0 -i 9 -a 0 -x {1.42 2.42 -1 ------- null}
+h -t 0.2558 -s 1 -d 2 -p message -e 900 -c 0 -i 9 -a 0 -x {1.42 2.42 -1 ------- null}
+r -t 0.2558 -s 0 -d 9 -p message -e 900 -c 0 -i 6 -a 0 -x {0.42 9.42 -1 ------- null}
+v -t 0.2558 -e sim_annotation 0.2558 8 Node 9 received {1:first message}
++ -t 0.2558 -s 9 -d 8 -p message -e 900 -c 0 -i 10 -a 0 -x {9.42 8.42 -1 ------- null}
+- -t 0.2558 -s 9 -d 8 -p message -e 900 -c 0 -i 10 -a 0 -x {9.42 8.42 -1 ------- null}
+h -t 0.2558 -s 9 -d 8 -p message -e 900 -c 0 -i 10 -a 0 -x {9.42 8.42 -1 ------- null}
++ -t 0.2558 -s 9 -d 10 -p message -e 900 -c 0 -i 11 -a 0 -x {9.42 10.42 -1 ------- null}
+- -t 0.2558 -s 9 -d 10 -p message -e 900 -c 0 -i 11 -a 0 -x {9.42 10.42 -1 ------- null}
+h -t 0.2558 -s 9 -d 10 -p message -e 900 -c 0 -i 11 -a 0 -x {9.42 10.42 -1 ------- null}
+r -t 0.2744 -s 2 -d 1 -p message -e 900 -c 0 -i 7 -a 0 -x {2.42 1.42 -1 ------- null}
+v -t 0.2744 -e sim_annotation 0.2744 9 Node 1 received redundant copy of message #1
+r -t 0.2744 -s 2 -d 28 -p message -e 900 -c 0 -i 8 -a 0 -x {2.42 28.42 -1 ------- null}
+v -t 0.2744 -e sim_annotation 0.2744 10 Node 28 received {1:first message}
++ -t 0.2744 -s 28 -d 34 -p message -e 900 -c 0 -i 12 -a 0 -x {28.42 34.42 -1 ------- null}
+- -t 0.2744 -s 28 -d 34 -p message -e 900 -c 0 -i 12 -a 0 -x {28.42 34.42 -1 ------- null}
+h -t 0.2744 -s 28 -d 34 -p message -e 900 -c 0 -i 12 -a 0 -x {28.42 34.42 -1 ------- null}
++ -t 0.2744 -s 28 -d 29 -p message -e 900 -c 0 -i 13 -a 0 -x {28.42 29.42 -1 ------- null}
+- -t 0.2744 -s 28 -d 29 -p message -e 900 -c 0 -i 13 -a 0 -x {28.42 29.42 -1 ------- null}
+h -t 0.2744 -s 28 -d 29 -p message -e 900 -c 0 -i 13 -a 0 -x {28.42 29.42 -1 ------- null}
+r -t 0.2744 -s 1 -d 2 -p message -e 900 -c 0 -i 9 -a 0 -x {1.42 2.42 -1 ------- null}
+v -t 0.2744 -e sim_annotation 0.2744 11 Node 2 received redundant copy of message #1
+r -t 0.2744 -s 9 -d 8 -p message -e 900 -c 0 -i 10 -a 0 -x {9.42 8.42 -1 ------- null}
+v -t 0.2744 -e sim_annotation 0.2744 12 Node 8 received {1:first message}
++ -t 0.2744 -s 8 -d 7 -p message -e 900 -c 0 -i 14 -a 0 -x {8.42 7.42 -1 ------- null}
+- -t 0.2744 -s 8 -d 7 -p message -e 900 -c 0 -i 14 -a 0 -x {8.42 7.42 -1 ------- null}
+h -t 0.2744 -s 8 -d 7 -p message -e 900 -c 0 -i 14 -a 0 -x {8.42 7.42 -1 ------- null}
++ -t 0.2744 -s 8 -d 24 -p message -e 900 -c 0 -i 15 -a 0 -x {8.42 24.42 -1 ------- null}
+- -t 0.2744 -s 8 -d 24 -p message -e 900 -c 0 -i 15 -a 0 -x {8.42 24.42 -1 ------- null}
+h -t 0.2744 -s 8 -d 24 -p message -e 900 -c 0 -i 15 -a 0 -x {8.42 24.42 -1 ------- null}
+r -t 0.2744 -s 9 -d 10 -p message -e 900 -c 0 -i 11 -a 0 -x {9.42 10.42 -1 ------- null}
+v -t 0.2744 -e sim_annotation 0.2744 13 Node 10 received {1:first message}
++ -t 0.2744 -s 10 -d 11 -p message -e 900 -c 0 -i 16 -a 0 -x {10.42 11.42 -1 ------- null}
+- -t 0.2744 -s 10 -d 11 -p message -e 900 -c 0 -i 16 -a 0 -x {10.42 11.42 -1 ------- null}
+h -t 0.2744 -s 10 -d 11 -p message -e 900 -c 0 -i 16 -a 0 -x {10.42 11.42 -1 ------- null}
++ -t 0.2744 -s 10 -d 29 -p message -e 900 -c 0 -i 17 -a 0 -x {10.42 29.42 -1 ------- null}
+- -t 0.2744 -s 10 -d 29 -p message -e 900 -c 0 -i 17 -a 0 -x {10.42 29.42 -1 ------- null}
+h -t 0.2744 -s 10 -d 29 -p message -e 900 -c 0 -i 17 -a 0 -x {10.42 29.42 -1 ------- null}
+r -t 0.293 -s 28 -d 34 -p message -e 900 -c 0 -i 12 -a 0 -x {28.42 34.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 14 Node 34 received {1:first message}
++ -t 0.293 -s 34 -d 33 -p message -e 900 -c 0 -i 18 -a 0 -x {34.42 33.42 -1 ------- null}
+- -t 0.293 -s 34 -d 33 -p message -e 900 -c 0 -i 18 -a 0 -x {34.42 33.42 -1 ------- null}
+h -t 0.293 -s 34 -d 33 -p message -e 900 -c 0 -i 18 -a 0 -x {34.42 33.42 -1 ------- null}
+r -t 0.293 -s 28 -d 29 -p message -e 900 -c 0 -i 13 -a 0 -x {28.42 29.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 15 Node 29 received {1:first message}
++ -t 0.293 -s 29 -d 30 -p message -e 900 -c 0 -i 19 -a 0 -x {29.42 30.42 -1 ------- null}
+- -t 0.293 -s 29 -d 30 -p message -e 900 -c 0 -i 19 -a 0 -x {29.42 30.42 -1 ------- null}
+h -t 0.293 -s 29 -d 30 -p message -e 900 -c 0 -i 19 -a 0 -x {29.42 30.42 -1 ------- null}
++ -t 0.293 -s 29 -d 10 -p message -e 900 -c 0 -i 20 -a 0 -x {29.42 10.42 -1 ------- null}
+- -t 0.293 -s 29 -d 10 -p message -e 900 -c 0 -i 20 -a 0 -x {29.42 10.42 -1 ------- null}
+h -t 0.293 -s 29 -d 10 -p message -e 900 -c 0 -i 20 -a 0 -x {29.42 10.42 -1 ------- null}
+r -t 0.293 -s 8 -d 7 -p message -e 900 -c 0 -i 14 -a 0 -x {8.42 7.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 16 Node 7 received {1:first message}
++ -t 0.293 -s 7 -d 13 -p message -e 900 -c 0 -i 21 -a 0 -x {7.42 13.42 -1 ------- null}
+- -t 0.293 -s 7 -d 13 -p message -e 900 -c 0 -i 21 -a 0 -x {7.42 13.42 -1 ------- null}
+h -t 0.293 -s 7 -d 13 -p message -e 900 -c 0 -i 21 -a 0 -x {7.42 13.42 -1 ------- null}
++ -t 0.293 -s 7 -d 16 -p message -e 900 -c 0 -i 22 -a 0 -x {7.42 16.42 -1 ------- null}
+- -t 0.293 -s 7 -d 16 -p message -e 900 -c 0 -i 22 -a 0 -x {7.42 16.42 -1 ------- null}
+h -t 0.293 -s 7 -d 16 -p message -e 900 -c 0 -i 22 -a 0 -x {7.42 16.42 -1 ------- null}
+r -t 0.293 -s 8 -d 24 -p message -e 900 -c 0 -i 15 -a 0 -x {8.42 24.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 17 Node 24 received {1:first message}
++ -t 0.293 -s 24 -d 23 -p message -e 900 -c 0 -i 23 -a 0 -x {24.42 23.42 -1 ------- null}
+- -t 0.293 -s 24 -d 23 -p message -e 900 -c 0 -i 23 -a 0 -x {24.42 23.42 -1 ------- null}
+h -t 0.293 -s 24 -d 23 -p message -e 900 -c 0 -i 23 -a 0 -x {24.42 23.42 -1 ------- null}
++ -t 0.293 -s 24 -d 25 -p message -e 900 -c 0 -i 24 -a 0 -x {24.42 25.42 -1 ------- null}
+- -t 0.293 -s 24 -d 25 -p message -e 900 -c 0 -i 24 -a 0 -x {24.42 25.42 -1 ------- null}
+h -t 0.293 -s 24 -d 25 -p message -e 900 -c 0 -i 24 -a 0 -x {24.42 25.42 -1 ------- null}
+r -t 0.293 -s 10 -d 11 -p message -e 900 -c 0 -i 16 -a 0 -x {10.42 11.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 18 Node 11 received {1:first message}
++ -t 0.293 -s 11 -d 12 -p message -e 900 -c 0 -i 25 -a 0 -x {11.42 12.42 -1 ------- null}
+- -t 0.293 -s 11 -d 12 -p message -e 900 -c 0 -i 25 -a 0 -x {11.42 12.42 -1 ------- null}
+h -t 0.293 -s 11 -d 12 -p message -e 900 -c 0 -i 25 -a 0 -x {11.42 12.42 -1 ------- null}
+r -t 0.293 -s 10 -d 29 -p message -e 900 -c 0 -i 17 -a 0 -x {10.42 29.42 -1 ------- null}
+v -t 0.293 -e sim_annotation 0.293 19 Node 29 received redundant copy of message #1
+r -t 0.3116 -s 34 -d 33 -p message -e 900 -c 0 -i 18 -a 0 -x {34.42 33.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 20 Node 33 received {1:first message}
++ -t 0.3116 -s 33 -d 32 -p message -e 900 -c 0 -i 26 -a 0 -x {33.42 32.42 -1 ------- null}
+- -t 0.3116 -s 33 -d 32 -p message -e 900 -c 0 -i 26 -a 0 -x {33.42 32.42 -1 ------- null}
+h -t 0.3116 -s 33 -d 32 -p message -e 900 -c 0 -i 26 -a 0 -x {33.42 32.42 -1 ------- null}
+r -t 0.3116 -s 29 -d 30 -p message -e 900 -c 0 -i 19 -a 0 -x {29.42 30.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 21 Node 30 received {1:first message}
++ -t 0.3116 -s 30 -d 31 -p message -e 900 -c 0 -i 27 -a 0 -x {30.42 31.42 -1 ------- null}
+- -t 0.3116 -s 30 -d 31 -p message -e 900 -c 0 -i 27 -a 0 -x {30.42 31.42 -1 ------- null}
+h -t 0.3116 -s 30 -d 31 -p message -e 900 -c 0 -i 27 -a 0 -x {30.42 31.42 -1 ------- null}
++ -t 0.3116 -s 30 -d 21 -p message -e 900 -c 0 -i 28 -a 0 -x {30.42 21.42 -1 ------- null}
+- -t 0.3116 -s 30 -d 21 -p message -e 900 -c 0 -i 28 -a 0 -x {30.42 21.42 -1 ------- null}
+h -t 0.3116 -s 30 -d 21 -p message -e 900 -c 0 -i 28 -a 0 -x {30.42 21.42 -1 ------- null}
+r -t 0.3116 -s 29 -d 10 -p message -e 900 -c 0 -i 20 -a 0 -x {29.42 10.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 22 Node 10 received redundant copy of message #1
+r -t 0.3116 -s 7 -d 13 -p message -e 900 -c 0 -i 21 -a 0 -x {7.42 13.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 23 Node 13 received {1:first message}
++ -t 0.3116 -s 13 -d 12 -p message -e 900 -c 0 -i 29 -a 0 -x {13.42 12.42 -1 ------- null}
+- -t 0.3116 -s 13 -d 12 -p message -e 900 -c 0 -i 29 -a 0 -x {13.42 12.42 -1 ------- null}
+h -t 0.3116 -s 13 -d 12 -p message -e 900 -c 0 -i 29 -a 0 -x {13.42 12.42 -1 ------- null}
+r -t 0.3116 -s 7 -d 16 -p message -e 900 -c 0 -i 22 -a 0 -x {7.42 16.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 24 Node 16 received {1:first message}
++ -t 0.3116 -s 16 -d 15 -p message -e 900 -c 0 -i 30 -a 0 -x {16.42 15.42 -1 ------- null}
+- -t 0.3116 -s 16 -d 15 -p message -e 900 -c 0 -i 30 -a 0 -x {16.42 15.42 -1 ------- null}
+h -t 0.3116 -s 16 -d 15 -p message -e 900 -c 0 -i 30 -a 0 -x {16.42 15.42 -1 ------- null}
++ -t 0.3116 -s 16 -d 17 -p message -e 900 -c 0 -i 31 -a 0 -x {16.42 17.42 -1 ------- null}
+- -t 0.3116 -s 16 -d 17 -p message -e 900 -c 0 -i 31 -a 0 -x {16.42 17.42 -1 ------- null}
+h -t 0.3116 -s 16 -d 17 -p message -e 900 -c 0 -i 31 -a 0 -x {16.42 17.42 -1 ------- null}
+r -t 0.3116 -s 24 -d 23 -p message -e 900 -c 0 -i 23 -a 0 -x {24.42 23.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 25 Node 23 received {1:first message}
++ -t 0.3116 -s 23 -d 14 -p message -e 900 -c 0 -i 32 -a 0 -x {23.42 14.42 -1 ------- null}
+- -t 0.3116 -s 23 -d 14 -p message -e 900 -c 0 -i 32 -a 0 -x {23.42 14.42 -1 ------- null}
+h -t 0.3116 -s 23 -d 14 -p message -e 900 -c 0 -i 32 -a 0 -x {23.42 14.42 -1 ------- null}
++ -t 0.3116 -s 23 -d 22 -p message -e 900 -c 0 -i 33 -a 0 -x {23.42 22.42 -1 ------- null}
+- -t 0.3116 -s 23 -d 22 -p message -e 900 -c 0 -i 33 -a 0 -x {23.42 22.42 -1 ------- null}
+h -t 0.3116 -s 23 -d 22 -p message -e 900 -c 0 -i 33 -a 0 -x {23.42 22.42 -1 ------- null}
+r -t 0.3116 -s 24 -d 25 -p message -e 900 -c 0 -i 24 -a 0 -x {24.42 25.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 26 Node 25 received {1:first message}
++ -t 0.3116 -s 25 -d 26 -p message -e 900 -c 0 -i 34 -a 0 -x {25.42 26.42 -1 ------- null}
+- -t 0.3116 -s 25 -d 26 -p message -e 900 -c 0 -i 34 -a 0 -x {25.42 26.42 -1 ------- null}
+h -t 0.3116 -s 25 -d 26 -p message -e 900 -c 0 -i 34 -a 0 -x {25.42 26.42 -1 ------- null}
+r -t 0.3116 -s 11 -d 12 -p message -e 900 -c 0 -i 25 -a 0 -x {11.42 12.42 -1 ------- null}
+v -t 0.3116 -e sim_annotation 0.3116 27 Node 12 received {1:first message}
++ -t 0.3116 -s 12 -d 13 -p message -e 900 -c 0 -i 35 -a 0 -x {12.42 13.42 -1 ------- null}
+- -t 0.3116 -s 12 -d 13 -p message -e 900 -c 0 -i 35 -a 0 -x {12.42 13.42 -1 ------- null}
+h -t 0.3116 -s 12 -d 13 -p message -e 900 -c 0 -i 35 -a 0 -x {12.42 13.42 -1 ------- null}
+r -t 0.3302 -s 33 -d 32 -p message -e 900 -c 0 -i 26 -a 0 -x {33.42 32.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 28 Node 32 received {1:first message}
++ -t 0.3302 -s 32 -d 31 -p message -e 900 -c 0 -i 36 -a 0 -x {32.42 31.42 -1 ------- null}
+- -t 0.3302 -s 32 -d 31 -p message -e 900 -c 0 -i 36 -a 0 -x {32.42 31.42 -1 ------- null}
+h -t 0.3302 -s 32 -d 31 -p message -e 900 -c 0 -i 36 -a 0 -x {32.42 31.42 -1 ------- null}
+r -t 0.3302 -s 30 -d 31 -p message -e 900 -c 0 -i 27 -a 0 -x {30.42 31.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 29 Node 31 received {1:first message}
++ -t 0.3302 -s 31 -d 32 -p message -e 900 -c 0 -i 37 -a 0 -x {31.42 32.42 -1 ------- null}
+- -t 0.3302 -s 31 -d 32 -p message -e 900 -c 0 -i 37 -a 0 -x {31.42 32.42 -1 ------- null}
+h -t 0.3302 -s 31 -d 32 -p message -e 900 -c 0 -i 37 -a 0 -x {31.42 32.42 -1 ------- null}
+r -t 0.3302 -s 30 -d 21 -p message -e 900 -c 0 -i 28 -a 0 -x {30.42 21.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 30 Node 21 received {1:first message}
++ -t 0.3302 -s 21 -d 22 -p message -e 900 -c 0 -i 38 -a 0 -x {21.42 22.42 -1 ------- null}
+- -t 0.3302 -s 21 -d 22 -p message -e 900 -c 0 -i 38 -a 0 -x {21.42 22.42 -1 ------- null}
+h -t 0.3302 -s 21 -d 22 -p message -e 900 -c 0 -i 38 -a 0 -x {21.42 22.42 -1 ------- null}
++ -t 0.3302 -s 21 -d 27 -p message -e 900 -c 0 -i 39 -a 0 -x {21.42 27.42 -1 ------- null}
+- -t 0.3302 -s 21 -d 27 -p message -e 900 -c 0 -i 39 -a 0 -x {21.42 27.42 -1 ------- null}
+h -t 0.3302 -s 21 -d 27 -p message -e 900 -c 0 -i 39 -a 0 -x {21.42 27.42 -1 ------- null}
+r -t 0.3302 -s 13 -d 12 -p message -e 900 -c 0 -i 29 -a 0 -x {13.42 12.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 31 Node 12 received redundant copy of message #1
+r -t 0.3302 -s 16 -d 15 -p message -e 900 -c 0 -i 30 -a 0 -x {16.42 15.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 32 Node 15 received {1:first message}
++ -t 0.3302 -s 15 -d 14 -p message -e 900 -c 0 -i 40 -a 0 -x {15.42 14.42 -1 ------- null}
+- -t 0.3302 -s 15 -d 14 -p message -e 900 -c 0 -i 40 -a 0 -x {15.42 14.42 -1 ------- null}
+h -t 0.3302 -s 15 -d 14 -p message -e 900 -c 0 -i 40 -a 0 -x {15.42 14.42 -1 ------- null}
+r -t 0.3302 -s 16 -d 17 -p message -e 900 -c 0 -i 31 -a 0 -x {16.42 17.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 33 Node 17 received {1:first message}
++ -t 0.3302 -s 17 -d 18 -p message -e 900 -c 0 -i 41 -a 0 -x {17.42 18.42 -1 ------- null}
+- -t 0.3302 -s 17 -d 18 -p message -e 900 -c 0 -i 41 -a 0 -x {17.42 18.42 -1 ------- null}
+h -t 0.3302 -s 17 -d 18 -p message -e 900 -c 0 -i 41 -a 0 -x {17.42 18.42 -1 ------- null}
+r -t 0.3302 -s 23 -d 14 -p message -e 900 -c 0 -i 32 -a 0 -x {23.42 14.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 34 Node 14 received {1:first message}
++ -t 0.3302 -s 14 -d 15 -p message -e 900 -c 0 -i 42 -a 0 -x {14.42 15.42 -1 ------- null}
+- -t 0.3302 -s 14 -d 15 -p message -e 900 -c 0 -i 42 -a 0 -x {14.42 15.42 -1 ------- null}
+h -t 0.3302 -s 14 -d 15 -p message -e 900 -c 0 -i 42 -a 0 -x {14.42 15.42 -1 ------- null}
++ -t 0.3302 -s 14 -d 20 -p message -e 900 -c 0 -i 43 -a 0 -x {14.42 20.42 -1 ------- null}
+- -t 0.3302 -s 14 -d 20 -p message -e 900 -c 0 -i 43 -a 0 -x {14.42 20.42 -1 ------- null}
+h -t 0.3302 -s 14 -d 20 -p message -e 900 -c 0 -i 43 -a 0 -x {14.42 20.42 -1 ------- null}
+r -t 0.3302 -s 23 -d 22 -p message -e 900 -c 0 -i 33 -a 0 -x {23.42 22.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 35 Node 22 received {1:first message}
++ -t 0.3302 -s 22 -d 21 -p message -e 900 -c 0 -i 44 -a 0 -x {22.42 21.42 -1 ------- null}
+- -t 0.3302 -s 22 -d 21 -p message -e 900 -c 0 -i 44 -a 0 -x {22.42 21.42 -1 ------- null}
+h -t 0.3302 -s 22 -d 21 -p message -e 900 -c 0 -i 44 -a 0 -x {22.42 21.42 -1 ------- null}
+r -t 0.3302 -s 25 -d 26 -p message -e 900 -c 0 -i 34 -a 0 -x {25.42 26.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 36 Node 26 received {1:first message}
++ -t 0.3302 -s 26 -d 27 -p message -e 900 -c 0 -i 45 -a 0 -x {26.42 27.42 -1 ------- null}
+- -t 0.3302 -s 26 -d 27 -p message -e 900 -c 0 -i 45 -a 0 -x {26.42 27.42 -1 ------- null}
+h -t 0.3302 -s 26 -d 27 -p message -e 900 -c 0 -i 45 -a 0 -x {26.42 27.42 -1 ------- null}
+r -t 0.3302 -s 12 -d 13 -p message -e 900 -c 0 -i 35 -a 0 -x {12.42 13.42 -1 ------- null}
+v -t 0.3302 -e sim_annotation 0.3302 37 Node 13 received redundant copy of message #1
+r -t 0.3488 -s 32 -d 31 -p message -e 900 -c 0 -i 36 -a 0 -x {32.42 31.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 38 Node 31 received redundant copy of message #1
+r -t 0.3488 -s 31 -d 32 -p message -e 900 -c 0 -i 37 -a 0 -x {31.42 32.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 39 Node 32 received redundant copy of message #1
+r -t 0.3488 -s 21 -d 22 -p message -e 900 -c 0 -i 38 -a 0 -x {21.42 22.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 40 Node 22 received redundant copy of message #1
+r -t 0.3488 -s 21 -d 27 -p message -e 900 -c 0 -i 39 -a 0 -x {21.42 27.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 41 Node 27 received {1:first message}
++ -t 0.3488 -s 27 -d 26 -p message -e 900 -c 0 -i 46 -a 0 -x {27.42 26.42 -1 ------- null}
+- -t 0.3488 -s 27 -d 26 -p message -e 900 -c 0 -i 46 -a 0 -x {27.42 26.42 -1 ------- null}
+h -t 0.3488 -s 27 -d 26 -p message -e 900 -c 0 -i 46 -a 0 -x {27.42 26.42 -1 ------- null}
+r -t 0.3488 -s 15 -d 14 -p message -e 900 -c 0 -i 40 -a 0 -x {15.42 14.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 42 Node 14 received redundant copy of message #1
+r -t 0.3488 -s 17 -d 18 -p message -e 900 -c 0 -i 41 -a 0 -x {17.42 18.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 43 Node 18 received {1:first message}
++ -t 0.3488 -s 18 -d 19 -p message -e 900 -c 0 -i 47 -a 0 -x {18.42 19.42 -1 ------- null}
+- -t 0.3488 -s 18 -d 19 -p message -e 900 -c 0 -i 47 -a 0 -x {18.42 19.42 -1 ------- null}
+h -t 0.3488 -s 18 -d 19 -p message -e 900 -c 0 -i 47 -a 0 -x {18.42 19.42 -1 ------- null}
+r -t 0.3488 -s 14 -d 15 -p message -e 900 -c 0 -i 42 -a 0 -x {14.42 15.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 44 Node 15 received redundant copy of message #1
+r -t 0.3488 -s 14 -d 20 -p message -e 900 -c 0 -i 43 -a 0 -x {14.42 20.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 45 Node 20 received {1:first message}
++ -t 0.3488 -s 20 -d 19 -p message -e 900 -c 0 -i 48 -a 0 -x {20.42 19.42 -1 ------- null}
+- -t 0.3488 -s 20 -d 19 -p message -e 900 -c 0 -i 48 -a 0 -x {20.42 19.42 -1 ------- null}
+h -t 0.3488 -s 20 -d 19 -p message -e 900 -c 0 -i 48 -a 0 -x {20.42 19.42 -1 ------- null}
+r -t 0.3488 -s 22 -d 21 -p message -e 900 -c 0 -i 44 -a 0 -x {22.42 21.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 46 Node 21 received redundant copy of message #1
+r -t 0.3488 -s 26 -d 27 -p message -e 900 -c 0 -i 45 -a 0 -x {26.42 27.42 -1 ------- null}
+v -t 0.3488 -e sim_annotation 0.3488 47 Node 27 received redundant copy of message #1
+r -t 0.3674 -s 27 -d 26 -p message -e 900 -c 0 -i 46 -a 0 -x {27.42 26.42 -1 ------- null}
+v -t 0.3674 -e sim_annotation 0.3674 48 Node 26 received redundant copy of message #1
+r -t 0.3674 -s 18 -d 19 -p message -e 900 -c 0 -i 47 -a 0 -x {18.42 19.42 -1 ------- null}
+v -t 0.3674 -e sim_annotation 0.3674 49 Node 19 received {1:first message}
++ -t 0.3674 -s 19 -d 20 -p message -e 900 -c 0 -i 49 -a 0 -x {19.42 20.42 -1 ------- null}
+- -t 0.3674 -s 19 -d 20 -p message -e 900 -c 0 -i 49 -a 0 -x {19.42 20.42 -1 ------- null}
+h -t 0.3674 -s 19 -d 20 -p message -e 900 -c 0 -i 49 -a 0 -x {19.42 20.42 -1 ------- null}
+r -t 0.3674 -s 20 -d 19 -p message -e 900 -c 0 -i 48 -a 0 -x {20.42 19.42 -1 ------- null}
+v -t 0.3674 -e sim_annotation 0.3674 50 Node 19 received redundant copy of message #1
+r -t 0.386 -s 19 -d 20 -p message -e 900 -c 0 -i 49 -a 0 -x {19.42 20.42 -1 ------- null}
+v -t 0.386 -e sim_annotation 0.386 51 Node 20 received redundant copy of message #1
+v -t 0.5 -e sim_annotation 0.5 52 Node 17 is sending {2:another one}
++ -t 0.5 -s 17 -d 16 -p message -e 700 -c 0 -i 50 -a 0 -x {17.42 16.42 -1 ------- null}
+- -t 0.5 -s 17 -d 16 -p message -e 700 -c 0 -i 50 -a 0 -x {17.42 16.42 -1 ------- null}
+h -t 0.5 -s 17 -d 16 -p message -e 700 -c 0 -i 50 -a 0 -x {17.42 16.42 -1 ------- null}
++ -t 0.5 -s 17 -d 18 -p message -e 700 -c 0 -i 51 -a 0 -x {17.42 18.42 -1 ------- null}
+- -t 0.5 -s 17 -d 18 -p message -e 700 -c 0 -i 51 -a 0 -x {17.42 18.42 -1 ------- null}
+h -t 0.5 -s 17 -d 18 -p message -e 700 -c 0 -i 51 -a 0 -x {17.42 18.42 -1 ------- null}
+r -t 0.5178 -s 17 -d 16 -p message -e 700 -c 0 -i 50 -a 0 -x {17.42 16.42 -1 ------- null}
+v -t 0.5178 -e sim_annotation 0.5178 53 Node 16 received {2:another one}
++ -t 0.5178 -s 16 -d 7 -p message -e 700 -c 0 -i 52 -a 0 -x {16.42 7.42 -1 ------- null}
+- -t 0.5178 -s 16 -d 7 -p message -e 700 -c 0 -i 52 -a 0 -x {16.42 7.42 -1 ------- null}
+h -t 0.5178 -s 16 -d 7 -p message -e 700 -c 0 -i 52 -a 0 -x {16.42 7.42 -1 ------- null}
++ -t 0.5178 -s 16 -d 15 -p message -e 700 -c 0 -i 53 -a 0 -x {16.42 15.42 -1 ------- null}
+- -t 0.5178 -s 16 -d 15 -p message -e 700 -c 0 -i 53 -a 0 -x {16.42 15.42 -1 ------- null}
+h -t 0.5178 -s 16 -d 15 -p message -e 700 -c 0 -i 53 -a 0 -x {16.42 15.42 -1 ------- null}
+r -t 0.5178 -s 17 -d 18 -p message -e 700 -c 0 -i 51 -a 0 -x {17.42 18.42 -1 ------- null}
+v -t 0.5178 -e sim_annotation 0.5178 54 Node 18 received {2:another one}
++ -t 0.5178 -s 18 -d 19 -p message -e 700 -c 0 -i 54 -a 0 -x {18.42 19.42 -1 ------- null}
+- -t 0.5178 -s 18 -d 19 -p message -e 700 -c 0 -i 54 -a 0 -x {18.42 19.42 -1 ------- null}
+h -t 0.5178 -s 18 -d 19 -p message -e 700 -c 0 -i 54 -a 0 -x {18.42 19.42 -1 ------- null}
+r -t 0.5356 -s 16 -d 7 -p message -e 700 -c 0 -i 52 -a 0 -x {16.42 7.42 -1 ------- null}
+v -t 0.5356 -e sim_annotation 0.5356 55 Node 7 received {2:another one}
++ -t 0.5356 -s 7 -d 8 -p message -e 700 -c 0 -i 55 -a 0 -x {7.42 8.42 -1 ------- null}
+- -t 0.5356 -s 7 -d 8 -p message -e 700 -c 0 -i 55 -a 0 -x {7.42 8.42 -1 ------- null}
+h -t 0.5356 -s 7 -d 8 -p message -e 700 -c 0 -i 55 -a 0 -x {7.42 8.42 -1 ------- null}
++ -t 0.5356 -s 7 -d 13 -p message -e 700 -c 0 -i 56 -a 0 -x {7.42 13.42 -1 ------- null}
+- -t 0.5356 -s 7 -d 13 -p message -e 700 -c 0 -i 56 -a 0 -x {7.42 13.42 -1 ------- null}
+h -t 0.5356 -s 7 -d 13 -p message -e 700 -c 0 -i 56 -a 0 -x {7.42 13.42 -1 ------- null}
+r -t 0.5356 -s 16 -d 15 -p message -e 700 -c 0 -i 53 -a 0 -x {16.42 15.42 -1 ------- null}
+v -t 0.5356 -e sim_annotation 0.5356 56 Node 15 received {2:another one}
++ -t 0.5356 -s 15 -d 14 -p message -e 700 -c 0 -i 57 -a 0 -x {15.42 14.42 -1 ------- null}
+- -t 0.5356 -s 15 -d 14 -p message -e 700 -c 0 -i 57 -a 0 -x {15.42 14.42 -1 ------- null}
+h -t 0.5356 -s 15 -d 14 -p message -e 700 -c 0 -i 57 -a 0 -x {15.42 14.42 -1 ------- null}
+r -t 0.5356 -s 18 -d 19 -p message -e 700 -c 0 -i 54 -a 0 -x {18.42 19.42 -1 ------- null}
+v -t 0.5356 -e sim_annotation 0.5356 57 Node 19 received {2:another one}
++ -t 0.5356 -s 19 -d 20 -p message -e 700 -c 0 -i 58 -a 0 -x {19.42 20.42 -1 ------- null}
+- -t 0.5356 -s 19 -d 20 -p message -e 700 -c 0 -i 58 -a 0 -x {19.42 20.42 -1 ------- null}
+h -t 0.5356 -s 19 -d 20 -p message -e 700 -c 0 -i 58 -a 0 -x {19.42 20.42 -1 ------- null}
+r -t 0.5534 -s 7 -d 8 -p message -e 700 -c 0 -i 55 -a 0 -x {7.42 8.42 -1 ------- null}
+v -t 0.5534 -e sim_annotation 0.5534 58 Node 8 received {2:another one}
++ -t 0.5534 -s 8 -d 9 -p message -e 700 -c 0 -i 59 -a 0 -x {8.42 9.42 -1 ------- null}
+- -t 0.5534 -s 8 -d 9 -p message -e 700 -c 0 -i 59 -a 0 -x {8.42 9.42 -1 ------- null}
+h -t 0.5534 -s 8 -d 9 -p message -e 700 -c 0 -i 59 -a 0 -x {8.42 9.42 -1 ------- null}
++ -t 0.5534 -s 8 -d 24 -p message -e 700 -c 0 -i 60 -a 0 -x {8.42 24.42 -1 ------- null}
+- -t 0.5534 -s 8 -d 24 -p message -e 700 -c 0 -i 60 -a 0 -x {8.42 24.42 -1 ------- null}
+h -t 0.5534 -s 8 -d 24 -p message -e 700 -c 0 -i 60 -a 0 -x {8.42 24.42 -1 ------- null}
+r -t 0.5534 -s 7 -d 13 -p message -e 700 -c 0 -i 56 -a 0 -x {7.42 13.42 -1 ------- null}
+v -t 0.5534 -e sim_annotation 0.5534 59 Node 13 received {2:another one}
++ -t 0.5534 -s 13 -d 12 -p message -e 700 -c 0 -i 61 -a 0 -x {13.42 12.42 -1 ------- null}
+- -t 0.5534 -s 13 -d 12 -p message -e 700 -c 0 -i 61 -a 0 -x {13.42 12.42 -1 ------- null}
+h -t 0.5534 -s 13 -d 12 -p message -e 700 -c 0 -i 61 -a 0 -x {13.42 12.42 -1 ------- null}
+r -t 0.5534 -s 15 -d 14 -p message -e 700 -c 0 -i 57 -a 0 -x {15.42 14.42 -1 ------- null}
+v -t 0.5534 -e sim_annotation 0.5534 60 Node 14 received {2:another one}
++ -t 0.5534 -s 14 -d 20 -p message -e 700 -c 0 -i 62 -a 0 -x {14.42 20.42 -1 ------- null}
+- -t 0.5534 -s 14 -d 20 -p message -e 700 -c 0 -i 62 -a 0 -x {14.42 20.42 -1 ------- null}
+h -t 0.5534 -s 14 -d 20 -p message -e 700 -c 0 -i 62 -a 0 -x {14.42 20.42 -1 ------- null}
++ -t 0.5534 -s 14 -d 23 -p message -e 700 -c 0 -i 63 -a 0 -x {14.42 23.42 -1 ------- null}
+- -t 0.5534 -s 14 -d 23 -p message -e 700 -c 0 -i 63 -a 0 -x {14.42 23.42 -1 ------- null}
+h -t 0.5534 -s 14 -d 23 -p message -e 700 -c 0 -i 63 -a 0 -x {14.42 23.42 -1 ------- null}
+r -t 0.5534 -s 19 -d 20 -p message -e 700 -c 0 -i 58 -a 0 -x {19.42 20.42 -1 ------- null}
+v -t 0.5534 -e sim_annotation 0.5534 61 Node 20 received {2:another one}
++ -t 0.5534 -s 20 -d 14 -p message -e 700 -c 0 -i 64 -a 0 -x {20.42 14.42 -1 ------- null}
+- -t 0.5534 -s 20 -d 14 -p message -e 700 -c 0 -i 64 -a 0 -x {20.42 14.42 -1 ------- null}
+h -t 0.5534 -s 20 -d 14 -p message -e 700 -c 0 -i 64 -a 0 -x {20.42 14.42 -1 ------- null}
+r -t 0.5712 -s 8 -d 9 -p message -e 700 -c 0 -i 59 -a 0 -x {8.42 9.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 62 Node 9 received {2:another one}
++ -t 0.5712 -s 9 -d 0 -p message -e 700 -c 0 -i 65 -a 0 -x {9.42 0.42 -1 ------- null}
+- -t 0.5712 -s 9 -d 0 -p message -e 700 -c 0 -i 65 -a 0 -x {9.42 0.42 -1 ------- null}
+h -t 0.5712 -s 9 -d 0 -p message -e 700 -c 0 -i 65 -a 0 -x {9.42 0.42 -1 ------- null}
++ -t 0.5712 -s 9 -d 10 -p message -e 700 -c 0 -i 66 -a 0 -x {9.42 10.42 -1 ------- null}
+- -t 0.5712 -s 9 -d 10 -p message -e 700 -c 0 -i 66 -a 0 -x {9.42 10.42 -1 ------- null}
+h -t 0.5712 -s 9 -d 10 -p message -e 700 -c 0 -i 66 -a 0 -x {9.42 10.42 -1 ------- null}
+r -t 0.5712 -s 8 -d 24 -p message -e 700 -c 0 -i 60 -a 0 -x {8.42 24.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 63 Node 24 received {2:another one}
++ -t 0.5712 -s 24 -d 23 -p message -e 700 -c 0 -i 67 -a 0 -x {24.42 23.42 -1 ------- null}
+- -t 0.5712 -s 24 -d 23 -p message -e 700 -c 0 -i 67 -a 0 -x {24.42 23.42 -1 ------- null}
+h -t 0.5712 -s 24 -d 23 -p message -e 700 -c 0 -i 67 -a 0 -x {24.42 23.42 -1 ------- null}
++ -t 0.5712 -s 24 -d 25 -p message -e 700 -c 0 -i 68 -a 0 -x {24.42 25.42 -1 ------- null}
+- -t 0.5712 -s 24 -d 25 -p message -e 700 -c 0 -i 68 -a 0 -x {24.42 25.42 -1 ------- null}
+h -t 0.5712 -s 24 -d 25 -p message -e 700 -c 0 -i 68 -a 0 -x {24.42 25.42 -1 ------- null}
+r -t 0.5712 -s 13 -d 12 -p message -e 700 -c 0 -i 61 -a 0 -x {13.42 12.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 64 Node 12 received {2:another one}
++ -t 0.5712 -s 12 -d 11 -p message -e 700 -c 0 -i 69 -a 0 -x {12.42 11.42 -1 ------- null}
+- -t 0.5712 -s 12 -d 11 -p message -e 700 -c 0 -i 69 -a 0 -x {12.42 11.42 -1 ------- null}
+h -t 0.5712 -s 12 -d 11 -p message -e 700 -c 0 -i 69 -a 0 -x {12.42 11.42 -1 ------- null}
+r -t 0.5712 -s 14 -d 20 -p message -e 700 -c 0 -i 62 -a 0 -x {14.42 20.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 65 Node 20 received redundant copy of message #2
+r -t 0.5712 -s 14 -d 23 -p message -e 700 -c 0 -i 63 -a 0 -x {14.42 23.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 66 Node 23 received {2:another one}
++ -t 0.5712 -s 23 -d 22 -p message -e 700 -c 0 -i 70 -a 0 -x {23.42 22.42 -1 ------- null}
+- -t 0.5712 -s 23 -d 22 -p message -e 700 -c 0 -i 70 -a 0 -x {23.42 22.42 -1 ------- null}
+h -t 0.5712 -s 23 -d 22 -p message -e 700 -c 0 -i 70 -a 0 -x {23.42 22.42 -1 ------- null}
++ -t 0.5712 -s 23 -d 24 -p message -e 700 -c 0 -i 71 -a 0 -x {23.42 24.42 -1 ------- null}
+- -t 0.5712 -s 23 -d 24 -p message -e 700 -c 0 -i 71 -a 0 -x {23.42 24.42 -1 ------- null}
+h -t 0.5712 -s 23 -d 24 -p message -e 700 -c 0 -i 71 -a 0 -x {23.42 24.42 -1 ------- null}
+r -t 0.5712 -s 20 -d 14 -p message -e 700 -c 0 -i 64 -a 0 -x {20.42 14.42 -1 ------- null}
+v -t 0.5712 -e sim_annotation 0.5712 67 Node 14 received redundant copy of message #2
+r -t 0.589 -s 9 -d 0 -p message -e 700 -c 0 -i 65 -a 0 -x {9.42 0.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 68 Node 0 received {2:another one}
++ -t 0.589 -s 0 -d 1 -p message -e 700 -c 0 -i 72 -a 0 -x {0.42 1.42 -1 ------- null}
+- -t 0.589 -s 0 -d 1 -p message -e 700 -c 0 -i 72 -a 0 -x {0.42 1.42 -1 ------- null}
+h -t 0.589 -s 0 -d 1 -p message -e 700 -c 0 -i 72 -a 0 -x {0.42 1.42 -1 ------- null}
++ -t 0.589 -s 0 -d 6 -p message -e 700 -c 0 -i 73 -a 0 -x {0.42 6.42 -1 ------- null}
+- -t 0.589 -s 0 -d 6 -p message -e 700 -c 0 -i 73 -a 0 -x {0.42 6.42 -1 ------- null}
+h -t 0.589 -s 0 -d 6 -p message -e 700 -c 0 -i 73 -a 0 -x {0.42 6.42 -1 ------- null}
+r -t 0.589 -s 9 -d 10 -p message -e 700 -c 0 -i 66 -a 0 -x {9.42 10.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 69 Node 10 received {2:another one}
++ -t 0.589 -s 10 -d 11 -p message -e 700 -c 0 -i 74 -a 0 -x {10.42 11.42 -1 ------- null}
+- -t 0.589 -s 10 -d 11 -p message -e 700 -c 0 -i 74 -a 0 -x {10.42 11.42 -1 ------- null}
+h -t 0.589 -s 10 -d 11 -p message -e 700 -c 0 -i 74 -a 0 -x {10.42 11.42 -1 ------- null}
++ -t 0.589 -s 10 -d 29 -p message -e 700 -c 0 -i 75 -a 0 -x {10.42 29.42 -1 ------- null}
+- -t 0.589 -s 10 -d 29 -p message -e 700 -c 0 -i 75 -a 0 -x {10.42 29.42 -1 ------- null}
+h -t 0.589 -s 10 -d 29 -p message -e 700 -c 0 -i 75 -a 0 -x {10.42 29.42 -1 ------- null}
+r -t 0.589 -s 24 -d 23 -p message -e 700 -c 0 -i 67 -a 0 -x {24.42 23.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 70 Node 23 received redundant copy of message #2
+r -t 0.589 -s 24 -d 25 -p message -e 700 -c 0 -i 68 -a 0 -x {24.42 25.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 71 Node 25 received {2:another one}
++ -t 0.589 -s 25 -d 26 -p message -e 700 -c 0 -i 76 -a 0 -x {25.42 26.42 -1 ------- null}
+- -t 0.589 -s 25 -d 26 -p message -e 700 -c 0 -i 76 -a 0 -x {25.42 26.42 -1 ------- null}
+h -t 0.589 -s 25 -d 26 -p message -e 700 -c 0 -i 76 -a 0 -x {25.42 26.42 -1 ------- null}
+r -t 0.589 -s 12 -d 11 -p message -e 700 -c 0 -i 69 -a 0 -x {12.42 11.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 72 Node 11 received {2:another one}
++ -t 0.589 -s 11 -d 10 -p message -e 700 -c 0 -i 77 -a 0 -x {11.42 10.42 -1 ------- null}
+- -t 0.589 -s 11 -d 10 -p message -e 700 -c 0 -i 77 -a 0 -x {11.42 10.42 -1 ------- null}
+h -t 0.589 -s 11 -d 10 -p message -e 700 -c 0 -i 77 -a 0 -x {11.42 10.42 -1 ------- null}
+r -t 0.589 -s 23 -d 22 -p message -e 700 -c 0 -i 70 -a 0 -x {23.42 22.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 73 Node 22 received {2:another one}
++ -t 0.589 -s 22 -d 21 -p message -e 700 -c 0 -i 78 -a 0 -x {22.42 21.42 -1 ------- null}
+- -t 0.589 -s 22 -d 21 -p message -e 700 -c 0 -i 78 -a 0 -x {22.42 21.42 -1 ------- null}
+h -t 0.589 -s 22 -d 21 -p message -e 700 -c 0 -i 78 -a 0 -x {22.42 21.42 -1 ------- null}
+r -t 0.589 -s 23 -d 24 -p message -e 700 -c 0 -i 71 -a 0 -x {23.42 24.42 -1 ------- null}
+v -t 0.589 -e sim_annotation 0.589 74 Node 24 received redundant copy of message #2
+r -t 0.6068 -s 0 -d 1 -p message -e 700 -c 0 -i 72 -a 0 -x {0.42 1.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 75 Node 1 received {2:another one}
++ -t 0.6068 -s 1 -d 2 -p message -e 700 -c 0 -i 79 -a 0 -x {1.42 2.42 -1 ------- null}
+- -t 0.6068 -s 1 -d 2 -p message -e 700 -c 0 -i 79 -a 0 -x {1.42 2.42 -1 ------- null}
+h -t 0.6068 -s 1 -d 2 -p message -e 700 -c 0 -i 79 -a 0 -x {1.42 2.42 -1 ------- null}
+r -t 0.6068 -s 0 -d 6 -p message -e 700 -c 0 -i 73 -a 0 -x {0.42 6.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 76 Node 6 received {2:another one}
++ -t 0.6068 -s 6 -d 5 -p message -e 700 -c 0 -i 80 -a 0 -x {6.42 5.42 -1 ------- null}
+- -t 0.6068 -s 6 -d 5 -p message -e 700 -c 0 -i 80 -a 0 -x {6.42 5.42 -1 ------- null}
+h -t 0.6068 -s 6 -d 5 -p message -e 700 -c 0 -i 80 -a 0 -x {6.42 5.42 -1 ------- null}
+r -t 0.6068 -s 10 -d 11 -p message -e 700 -c 0 -i 74 -a 0 -x {10.42 11.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 77 Node 11 received redundant copy of message #2
+r -t 0.6068 -s 10 -d 29 -p message -e 700 -c 0 -i 75 -a 0 -x {10.42 29.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 78 Node 29 received {2:another one}
++ -t 0.6068 -s 29 -d 30 -p message -e 700 -c 0 -i 81 -a 0 -x {29.42 30.42 -1 ------- null}
+- -t 0.6068 -s 29 -d 30 -p message -e 700 -c 0 -i 81 -a 0 -x {29.42 30.42 -1 ------- null}
+h -t 0.6068 -s 29 -d 30 -p message -e 700 -c 0 -i 81 -a 0 -x {29.42 30.42 -1 ------- null}
++ -t 0.6068 -s 29 -d 28 -p message -e 700 -c 0 -i 82 -a 0 -x {29.42 28.42 -1 ------- null}
+- -t 0.6068 -s 29 -d 28 -p message -e 700 -c 0 -i 82 -a 0 -x {29.42 28.42 -1 ------- null}
+h -t 0.6068 -s 29 -d 28 -p message -e 700 -c 0 -i 82 -a 0 -x {29.42 28.42 -1 ------- null}
+r -t 0.6068 -s 25 -d 26 -p message -e 700 -c 0 -i 76 -a 0 -x {25.42 26.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 79 Node 26 received {2:another one}
++ -t 0.6068 -s 26 -d 27 -p message -e 700 -c 0 -i 83 -a 0 -x {26.42 27.42 -1 ------- null}
+- -t 0.6068 -s 26 -d 27 -p message -e 700 -c 0 -i 83 -a 0 -x {26.42 27.42 -1 ------- null}
+h -t 0.6068 -s 26 -d 27 -p message -e 700 -c 0 -i 83 -a 0 -x {26.42 27.42 -1 ------- null}
+r -t 0.6068 -s 11 -d 10 -p message -e 700 -c 0 -i 77 -a 0 -x {11.42 10.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 80 Node 10 received redundant copy of message #2
+r -t 0.6068 -s 22 -d 21 -p message -e 700 -c 0 -i 78 -a 0 -x {22.42 21.42 -1 ------- null}
+v -t 0.6068 -e sim_annotation 0.6068 81 Node 21 received {2:another one}
++ -t 0.6068 -s 21 -d 30 -p message -e 700 -c 0 -i 84 -a 0 -x {21.42 30.42 -1 ------- null}
+- -t 0.6068 -s 21 -d 30 -p message -e 700 -c 0 -i 84 -a 0 -x {21.42 30.42 -1 ------- null}
+h -t 0.6068 -s 21 -d 30 -p message -e 700 -c 0 -i 84 -a 0 -x {21.42 30.42 -1 ------- null}
++ -t 0.6068 -s 21 -d 27 -p message -e 700 -c 0 -i 85 -a 0 -x {21.42 27.42 -1 ------- null}
+- -t 0.6068 -s 21 -d 27 -p message -e 700 -c 0 -i 85 -a 0 -x {21.42 27.42 -1 ------- null}
+h -t 0.6068 -s 21 -d 27 -p message -e 700 -c 0 -i 85 -a 0 -x {21.42 27.42 -1 ------- null}
+r -t 0.6246 -s 1 -d 2 -p message -e 700 -c 0 -i 79 -a 0 -x {1.42 2.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 82 Node 2 received {2:another one}
++ -t 0.6246 -s 2 -d 3 -p message -e 700 -c 0 -i 86 -a 0 -x {2.42 3.42 -1 ------- null}
+- -t 0.6246 -s 2 -d 3 -p message -e 700 -c 0 -i 86 -a 0 -x {2.42 3.42 -1 ------- null}
+h -t 0.6246 -s 2 -d 3 -p message -e 700 -c 0 -i 86 -a 0 -x {2.42 3.42 -1 ------- null}
++ -t 0.6246 -s 2 -d 28 -p message -e 700 -c 0 -i 87 -a 0 -x {2.42 28.42 -1 ------- null}
+- -t 0.6246 -s 2 -d 28 -p message -e 700 -c 0 -i 87 -a 0 -x {2.42 28.42 -1 ------- null}
+h -t 0.6246 -s 2 -d 28 -p message -e 700 -c 0 -i 87 -a 0 -x {2.42 28.42 -1 ------- null}
+r -t 0.6246 -s 6 -d 5 -p message -e 700 -c 0 -i 80 -a 0 -x {6.42 5.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 83 Node 5 received {2:another one}
++ -t 0.6246 -s 5 -d 4 -p message -e 700 -c 0 -i 88 -a 0 -x {5.42 4.42 -1 ------- null}
+- -t 0.6246 -s 5 -d 4 -p message -e 700 -c 0 -i 88 -a 0 -x {5.42 4.42 -1 ------- null}
+h -t 0.6246 -s 5 -d 4 -p message -e 700 -c 0 -i 88 -a 0 -x {5.42 4.42 -1 ------- null}
+r -t 0.6246 -s 29 -d 30 -p message -e 700 -c 0 -i 81 -a 0 -x {29.42 30.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 84 Node 30 received {2:another one}
++ -t 0.6246 -s 30 -d 31 -p message -e 700 -c 0 -i 89 -a 0 -x {30.42 31.42 -1 ------- null}
+- -t 0.6246 -s 30 -d 31 -p message -e 700 -c 0 -i 89 -a 0 -x {30.42 31.42 -1 ------- null}
+h -t 0.6246 -s 30 -d 31 -p message -e 700 -c 0 -i 89 -a 0 -x {30.42 31.42 -1 ------- null}
++ -t 0.6246 -s 30 -d 21 -p message -e 700 -c 0 -i 90 -a 0 -x {30.42 21.42 -1 ------- null}
+- -t 0.6246 -s 30 -d 21 -p message -e 700 -c 0 -i 90 -a 0 -x {30.42 21.42 -1 ------- null}
+h -t 0.6246 -s 30 -d 21 -p message -e 700 -c 0 -i 90 -a 0 -x {30.42 21.42 -1 ------- null}
+r -t 0.6246 -s 29 -d 28 -p message -e 700 -c 0 -i 82 -a 0 -x {29.42 28.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 85 Node 28 received {2:another one}
++ -t 0.6246 -s 28 -d 34 -p message -e 700 -c 0 -i 91 -a 0 -x {28.42 34.42 -1 ------- null}
+- -t 0.6246 -s 28 -d 34 -p message -e 700 -c 0 -i 91 -a 0 -x {28.42 34.42 -1 ------- null}
+h -t 0.6246 -s 28 -d 34 -p message -e 700 -c 0 -i 91 -a 0 -x {28.42 34.42 -1 ------- null}
++ -t 0.6246 -s 28 -d 2 -p message -e 700 -c 0 -i 92 -a 0 -x {28.42 2.42 -1 ------- null}
+- -t 0.6246 -s 28 -d 2 -p message -e 700 -c 0 -i 92 -a 0 -x {28.42 2.42 -1 ------- null}
+h -t 0.6246 -s 28 -d 2 -p message -e 700 -c 0 -i 92 -a 0 -x {28.42 2.42 -1 ------- null}
+r -t 0.6246 -s 26 -d 27 -p message -e 700 -c 0 -i 83 -a 0 -x {26.42 27.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 86 Node 27 received {2:another one}
++ -t 0.6246 -s 27 -d 21 -p message -e 700 -c 0 -i 93 -a 0 -x {27.42 21.42 -1 ------- null}
+- -t 0.6246 -s 27 -d 21 -p message -e 700 -c 0 -i 93 -a 0 -x {27.42 21.42 -1 ------- null}
+h -t 0.6246 -s 27 -d 21 -p message -e 700 -c 0 -i 93 -a 0 -x {27.42 21.42 -1 ------- null}
+r -t 0.6246 -s 21 -d 30 -p message -e 700 -c 0 -i 84 -a 0 -x {21.42 30.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 87 Node 30 received redundant copy of message #2
+r -t 0.6246 -s 21 -d 27 -p message -e 700 -c 0 -i 85 -a 0 -x {21.42 27.42 -1 ------- null}
+v -t 0.6246 -e sim_annotation 0.6246 88 Node 27 received redundant copy of message #2
+r -t 0.6424 -s 2 -d 3 -p message -e 700 -c 0 -i 86 -a 0 -x {2.42 3.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 89 Node 3 received {2:another one}
++ -t 0.6424 -s 3 -d 4 -p message -e 700 -c 0 -i 94 -a 0 -x {3.42 4.42 -1 ------- null}
+- -t 0.6424 -s 3 -d 4 -p message -e 700 -c 0 -i 94 -a 0 -x {3.42 4.42 -1 ------- null}
+h -t 0.6424 -s 3 -d 4 -p message -e 700 -c 0 -i 94 -a 0 -x {3.42 4.42 -1 ------- null}
+r -t 0.6424 -s 2 -d 28 -p message -e 700 -c 0 -i 87 -a 0 -x {2.42 28.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 90 Node 28 received redundant copy of message #2
+r -t 0.6424 -s 5 -d 4 -p message -e 700 -c 0 -i 88 -a 0 -x {5.42 4.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 91 Node 4 received {2:another one}
++ -t 0.6424 -s 4 -d 3 -p message -e 700 -c 0 -i 95 -a 0 -x {4.42 3.42 -1 ------- null}
+- -t 0.6424 -s 4 -d 3 -p message -e 700 -c 0 -i 95 -a 0 -x {4.42 3.42 -1 ------- null}
+h -t 0.6424 -s 4 -d 3 -p message -e 700 -c 0 -i 95 -a 0 -x {4.42 3.42 -1 ------- null}
+r -t 0.6424 -s 30 -d 31 -p message -e 700 -c 0 -i 89 -a 0 -x {30.42 31.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 92 Node 31 received {2:another one}
++ -t 0.6424 -s 31 -d 32 -p message -e 700 -c 0 -i 96 -a 0 -x {31.42 32.42 -1 ------- null}
+- -t 0.6424 -s 31 -d 32 -p message -e 700 -c 0 -i 96 -a 0 -x {31.42 32.42 -1 ------- null}
+h -t 0.6424 -s 31 -d 32 -p message -e 700 -c 0 -i 96 -a 0 -x {31.42 32.42 -1 ------- null}
+r -t 0.6424 -s 30 -d 21 -p message -e 700 -c 0 -i 90 -a 0 -x {30.42 21.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 93 Node 21 received redundant copy of message #2
+r -t 0.6424 -s 28 -d 34 -p message -e 700 -c 0 -i 91 -a 0 -x {28.42 34.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 94 Node 34 received {2:another one}
++ -t 0.6424 -s 34 -d 33 -p message -e 700 -c 0 -i 97 -a 0 -x {34.42 33.42 -1 ------- null}
+- -t 0.6424 -s 34 -d 33 -p message -e 700 -c 0 -i 97 -a 0 -x {34.42 33.42 -1 ------- null}
+h -t 0.6424 -s 34 -d 33 -p message -e 700 -c 0 -i 97 -a 0 -x {34.42 33.42 -1 ------- null}
+r -t 0.6424 -s 28 -d 2 -p message -e 700 -c 0 -i 92 -a 0 -x {28.42 2.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 95 Node 2 received redundant copy of message #2
+r -t 0.6424 -s 27 -d 21 -p message -e 700 -c 0 -i 93 -a 0 -x {27.42 21.42 -1 ------- null}
+v -t 0.6424 -e sim_annotation 0.6424 96 Node 21 received redundant copy of message #2
+r -t 0.6602 -s 3 -d 4 -p message -e 700 -c 0 -i 94 -a 0 -x {3.42 4.42 -1 ------- null}
+v -t 0.6602 -e sim_annotation 0.6602 97 Node 4 received redundant copy of message #2
+r -t 0.6602 -s 4 -d 3 -p message -e 700 -c 0 -i 95 -a 0 -x {4.42 3.42 -1 ------- null}
+v -t 0.6602 -e sim_annotation 0.6602 98 Node 3 received redundant copy of message #2
+r -t 0.6602 -s 31 -d 32 -p message -e 700 -c 0 -i 96 -a 0 -x {31.42 32.42 -1 ------- null}
+v -t 0.6602 -e sim_annotation 0.6602 99 Node 32 received {2:another one}
++ -t 0.6602 -s 32 -d 33 -p message -e 700 -c 0 -i 98 -a 0 -x {32.42 33.42 -1 ------- null}
+- -t 0.6602 -s 32 -d 33 -p message -e 700 -c 0 -i 98 -a 0 -x {32.42 33.42 -1 ------- null}
+h -t 0.6602 -s 32 -d 33 -p message -e 700 -c 0 -i 98 -a 0 -x {32.42 33.42 -1 ------- null}
+r -t 0.6602 -s 34 -d 33 -p message -e 700 -c 0 -i 97 -a 0 -x {34.42 33.42 -1 ------- null}
+v -t 0.6602 -e sim_annotation 0.6602 100 Node 33 received {2:another one}
++ -t 0.6602 -s 33 -d 32 -p message -e 700 -c 0 -i 99 -a 0 -x {33.42 32.42 -1 ------- null}
+- -t 0.6602 -s 33 -d 32 -p message -e 700 -c 0 -i 99 -a 0 -x {33.42 32.42 -1 ------- null}
+h -t 0.6602 -s 33 -d 32 -p message -e 700 -c 0 -i 99 -a 0 -x {33.42 32.42 -1 ------- null}
+r -t 0.678 -s 32 -d 33 -p message -e 700 -c 0 -i 98 -a 0 -x {32.42 33.42 -1 ------- null}
+v -t 0.678 -e sim_annotation 0.678 101 Node 33 received redundant copy of message #2
+r -t 0.678 -s 33 -d 32 -p message -e 700 -c 0 -i 99 -a 0 -x {33.42 32.42 -1 ------- null}
+v -t 0.678 -e sim_annotation 0.678 102 Node 32 received redundant copy of message #2
+v -t 1 -e sim_annotation 1 103 Node 24 is sending {abc:yet another one}
++ -t 1 -s 24 -d 8 -p message -e 500 -c 0 -i 100 -a 0 -x {24.42 8.42 -1 ------- null}
+- -t 1 -s 24 -d 8 -p message -e 500 -c 0 -i 100 -a 0 -x {24.42 8.42 -1 ------- null}
+h -t 1 -s 24 -d 8 -p message -e 500 -c 0 -i 100 -a 0 -x {24.42 8.42 -1 ------- null}
++ -t 1 -s 24 -d 23 -p message -e 500 -c 0 -i 101 -a 0 -x {24.42 23.42 -1 ------- null}
+- -t 1 -s 24 -d 23 -p message -e 500 -c 0 -i 101 -a 0 -x {24.42 23.42 -1 ------- null}
+h -t 1 -s 24 -d 23 -p message -e 500 -c 0 -i 101 -a 0 -x {24.42 23.42 -1 ------- null}
++ -t 1 -s 24 -d 25 -p message -e 500 -c 0 -i 102 -a 0 -x {24.42 25.42 -1 ------- null}
+- -t 1 -s 24 -d 25 -p message -e 500 -c 0 -i 102 -a 0 -x {24.42 25.42 -1 ------- null}
+h -t 1 -s 24 -d 25 -p message -e 500 -c 0 -i 102 -a 0 -x {24.42 25.42 -1 ------- null}
+r -t 1.017 -s 24 -d 8 -p message -e 500 -c 0 -i 100 -a 0 -x {24.42 8.42 -1 ------- null}
+v -t 1.017 -e sim_annotation 1.017 104 Node 8 received {abc:yet another one}
++ -t 1.017 -s 8 -d 7 -p message -e 500 -c 0 -i 103 -a 0 -x {8.42 7.42 -1 ------- null}
+- -t 1.017 -s 8 -d 7 -p message -e 500 -c 0 -i 103 -a 0 -x {8.42 7.42 -1 ------- null}
+h -t 1.017 -s 8 -d 7 -p message -e 500 -c 0 -i 103 -a 0 -x {8.42 7.42 -1 ------- null}
++ -t 1.017 -s 8 -d 9 -p message -e 500 -c 0 -i 104 -a 0 -x {8.42 9.42 -1 ------- null}
+- -t 1.017 -s 8 -d 9 -p message -e 500 -c 0 -i 104 -a 0 -x {8.42 9.42 -1 ------- null}
+h -t 1.017 -s 8 -d 9 -p message -e 500 -c 0 -i 104 -a 0 -x {8.42 9.42 -1 ------- null}
+r -t 1.017 -s 24 -d 23 -p message -e 500 -c 0 -i 101 -a 0 -x {24.42 23.42 -1 ------- null}
+v -t 1.017 -e sim_annotation 1.017 105 Node 23 received {abc:yet another one}
++ -t 1.017 -s 23 -d 14 -p message -e 500 -c 0 -i 105 -a 0 -x {23.42 14.42 -1 ------- null}
+- -t 1.017 -s 23 -d 14 -p message -e 500 -c 0 -i 105 -a 0 -x {23.42 14.42 -1 ------- null}
+h -t 1.017 -s 23 -d 14 -p message -e 500 -c 0 -i 105 -a 0 -x {23.42 14.42 -1 ------- null}
++ -t 1.017 -s 23 -d 22 -p message -e 500 -c 0 -i 106 -a 0 -x {23.42 22.42 -1 ------- null}
+- -t 1.017 -s 23 -d 22 -p message -e 500 -c 0 -i 106 -a 0 -x {23.42 22.42 -1 ------- null}
+h -t 1.017 -s 23 -d 22 -p message -e 500 -c 0 -i 106 -a 0 -x {23.42 22.42 -1 ------- null}
+r -t 1.017 -s 24 -d 25 -p message -e 500 -c 0 -i 102 -a 0 -x {24.42 25.42 -1 ------- null}
+v -t 1.017 -e sim_annotation 1.017 106 Node 25 received {abc:yet another one}
++ -t 1.017 -s 25 -d 26 -p message -e 500 -c 0 -i 107 -a 0 -x {25.42 26.42 -1 ------- null}
+- -t 1.017 -s 25 -d 26 -p message -e 500 -c 0 -i 107 -a 0 -x {25.42 26.42 -1 ------- null}
+h -t 1.017 -s 25 -d 26 -p message -e 500 -c 0 -i 107 -a 0 -x {25.42 26.42 -1 ------- null}
+r -t 1.034 -s 8 -d 7 -p message -e 500 -c 0 -i 103 -a 0 -x {8.42 7.42 -1 ------- null}
+v -t 1.034 -e sim_annotation 1.034 107 Node 7 received {abc:yet another one}
++ -t 1.034 -s 7 -d 13 -p message -e 500 -c 0 -i 108 -a 0 -x {7.42 13.42 -1 ------- null}
+- -t 1.034 -s 7 -d 13 -p message -e 500 -c 0 -i 108 -a 0 -x {7.42 13.42 -1 ------- null}
+h -t 1.034 -s 7 -d 13 -p message -e 500 -c 0 -i 108 -a 0 -x {7.42 13.42 -1 ------- null}
++ -t 1.034 -s 7 -d 16 -p message -e 500 -c 0 -i 109 -a 0 -x {7.42 16.42 -1 ------- null}
+- -t 1.034 -s 7 -d 16 -p message -e 500 -c 0 -i 109 -a 0 -x {7.42 16.42 -1 ------- null}
+h -t 1.034 -s 7 -d 16 -p message -e 500 -c 0 -i 109 -a 0 -x {7.42 16.42 -1 ------- null}
+r -t 1.034 -s 8 -d 9 -p message -e 500 -c 0 -i 104 -a 0 -x {8.42 9.42 -1 ------- null}
+v -t 1.034 -e sim_annotation 1.034 108 Node 9 received {abc:yet another one}
++ -t 1.034 -s 9 -d 0 -p message -e 500 -c 0 -i 110 -a 0 -x {9.42 0.42 -1 ------- null}
+- -t 1.034 -s 9 -d 0 -p message -e 500 -c 0 -i 110 -a 0 -x {9.42 0.42 -1 ------- null}
+h -t 1.034 -s 9 -d 0 -p message -e 500 -c 0 -i 110 -a 0 -x {9.42 0.42 -1 ------- null}
++ -t 1.034 -s 9 -d 10 -p message -e 500 -c 0 -i 111 -a 0 -x {9.42 10.42 -1 ------- null}
+- -t 1.034 -s 9 -d 10 -p message -e 500 -c 0 -i 111 -a 0 -x {9.42 10.42 -1 ------- null}
+h -t 1.034 -s 9 -d 10 -p message -e 500 -c 0 -i 111 -a 0 -x {9.42 10.42 -1 ------- null}
+r -t 1.034 -s 23 -d 14 -p message -e 500 -c 0 -i 105 -a 0 -x {23.42 14.42 -1 ------- null}
+v -t 1.034 -e sim_annotation 1.034 109 Node 14 received {abc:yet another one}
++ -t 1.034 -s 14 -d 15 -p message -e 500 -c 0 -i 112 -a 0 -x {14.42 15.42 -1 ------- null}
+- -t 1.034 -s 14 -d 15 -p message -e 500 -c 0 -i 112 -a 0 -x {14.42 15.42 -1 ------- null}
+h -t 1.034 -s 14 -d 15 -p message -e 500 -c 0 -i 112 -a 0 -x {14.42 15.42 -1 ------- null}
++ -t 1.034 -s 14 -d 20 -p message -e 500 -c 0 -i 113 -a 0 -x {14.42 20.42 -1 ------- null}
+- -t 1.034 -s 14 -d 20 -p message -e 500 -c 0 -i 113 -a 0 -x {14.42 20.42 -1 ------- null}
+h -t 1.034 -s 14 -d 20 -p message -e 500 -c 0 -i 113 -a 0 -x {14.42 20.42 -1 ------- null}
+r -t 1.034 -s 23 -d 22 -p message -e 500 -c 0 -i 106 -a 0 -x {23.42 22.42 -1 ------- null}
+v -t 1.034 -e sim_annotation 1.034 110 Node 22 received {abc:yet another one}
++ -t 1.034 -s 22 -d 21 -p message -e 500 -c 0 -i 114 -a 0 -x {22.42 21.42 -1 ------- null}
+- -t 1.034 -s 22 -d 21 -p message -e 500 -c 0 -i 114 -a 0 -x {22.42 21.42 -1 ------- null}
+h -t 1.034 -s 22 -d 21 -p message -e 500 -c 0 -i 114 -a 0 -x {22.42 21.42 -1 ------- null}
+r -t 1.034 -s 25 -d 26 -p message -e 500 -c 0 -i 107 -a 0 -x {25.42 26.42 -1 ------- null}
+v -t 1.034 -e sim_annotation 1.034 111 Node 26 received {abc:yet another one}
++ -t 1.034 -s 26 -d 27 -p message -e 500 -c 0 -i 115 -a 0 -x {26.42 27.42 -1 ------- null}
+- -t 1.034 -s 26 -d 27 -p message -e 500 -c 0 -i 115 -a 0 -x {26.42 27.42 -1 ------- null}
+h -t 1.034 -s 26 -d 27 -p message -e 500 -c 0 -i 115 -a 0 -x {26.42 27.42 -1 ------- null}
+r -t 1.051 -s 7 -d 13 -p message -e 500 -c 0 -i 108 -a 0 -x {7.42 13.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 112 Node 13 received {abc:yet another one}
++ -t 1.051 -s 13 -d 12 -p message -e 500 -c 0 -i 116 -a 0 -x {13.42 12.42 -1 ------- null}
+- -t 1.051 -s 13 -d 12 -p message -e 500 -c 0 -i 116 -a 0 -x {13.42 12.42 -1 ------- null}
+h -t 1.051 -s 13 -d 12 -p message -e 500 -c 0 -i 116 -a 0 -x {13.42 12.42 -1 ------- null}
+r -t 1.051 -s 7 -d 16 -p message -e 500 -c 0 -i 109 -a 0 -x {7.42 16.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 113 Node 16 received {abc:yet another one}
++ -t 1.051 -s 16 -d 15 -p message -e 500 -c 0 -i 117 -a 0 -x {16.42 15.42 -1 ------- null}
+- -t 1.051 -s 16 -d 15 -p message -e 500 -c 0 -i 117 -a 0 -x {16.42 15.42 -1 ------- null}
+h -t 1.051 -s 16 -d 15 -p message -e 500 -c 0 -i 117 -a 0 -x {16.42 15.42 -1 ------- null}
++ -t 1.051 -s 16 -d 17 -p message -e 500 -c 0 -i 118 -a 0 -x {16.42 17.42 -1 ------- null}
+- -t 1.051 -s 16 -d 17 -p message -e 500 -c 0 -i 118 -a 0 -x {16.42 17.42 -1 ------- null}
+h -t 1.051 -s 16 -d 17 -p message -e 500 -c 0 -i 118 -a 0 -x {16.42 17.42 -1 ------- null}
+r -t 1.051 -s 9 -d 0 -p message -e 500 -c 0 -i 110 -a 0 -x {9.42 0.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 114 Node 0 received {abc:yet another one}
++ -t 1.051 -s 0 -d 1 -p message -e 500 -c 0 -i 119 -a 0 -x {0.42 1.42 -1 ------- null}
+- -t 1.051 -s 0 -d 1 -p message -e 500 -c 0 -i 119 -a 0 -x {0.42 1.42 -1 ------- null}
+h -t 1.051 -s 0 -d 1 -p message -e 500 -c 0 -i 119 -a 0 -x {0.42 1.42 -1 ------- null}
++ -t 1.051 -s 0 -d 6 -p message -e 500 -c 0 -i 120 -a 0 -x {0.42 6.42 -1 ------- null}
+- -t 1.051 -s 0 -d 6 -p message -e 500 -c 0 -i 120 -a 0 -x {0.42 6.42 -1 ------- null}
+h -t 1.051 -s 0 -d 6 -p message -e 500 -c 0 -i 120 -a 0 -x {0.42 6.42 -1 ------- null}
+r -t 1.051 -s 9 -d 10 -p message -e 500 -c 0 -i 111 -a 0 -x {9.42 10.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 115 Node 10 received {abc:yet another one}
++ -t 1.051 -s 10 -d 11 -p message -e 500 -c 0 -i 121 -a 0 -x {10.42 11.42 -1 ------- null}
+- -t 1.051 -s 10 -d 11 -p message -e 500 -c 0 -i 121 -a 0 -x {10.42 11.42 -1 ------- null}
+h -t 1.051 -s 10 -d 11 -p message -e 500 -c 0 -i 121 -a 0 -x {10.42 11.42 -1 ------- null}
++ -t 1.051 -s 10 -d 29 -p message -e 500 -c 0 -i 122 -a 0 -x {10.42 29.42 -1 ------- null}
+- -t 1.051 -s 10 -d 29 -p message -e 500 -c 0 -i 122 -a 0 -x {10.42 29.42 -1 ------- null}
+h -t 1.051 -s 10 -d 29 -p message -e 500 -c 0 -i 122 -a 0 -x {10.42 29.42 -1 ------- null}
+r -t 1.051 -s 14 -d 15 -p message -e 500 -c 0 -i 112 -a 0 -x {14.42 15.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 116 Node 15 received {abc:yet another one}
++ -t 1.051 -s 15 -d 16 -p message -e 500 -c 0 -i 123 -a 0 -x {15.42 16.42 -1 ------- null}
+- -t 1.051 -s 15 -d 16 -p message -e 500 -c 0 -i 123 -a 0 -x {15.42 16.42 -1 ------- null}
+h -t 1.051 -s 15 -d 16 -p message -e 500 -c 0 -i 123 -a 0 -x {15.42 16.42 -1 ------- null}
+r -t 1.051 -s 14 -d 20 -p message -e 500 -c 0 -i 113 -a 0 -x {14.42 20.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 117 Node 20 received {abc:yet another one}
++ -t 1.051 -s 20 -d 19 -p message -e 500 -c 0 -i 124 -a 0 -x {20.42 19.42 -1 ------- null}
+- -t 1.051 -s 20 -d 19 -p message -e 500 -c 0 -i 124 -a 0 -x {20.42 19.42 -1 ------- null}
+h -t 1.051 -s 20 -d 19 -p message -e 500 -c 0 -i 124 -a 0 -x {20.42 19.42 -1 ------- null}
+r -t 1.051 -s 22 -d 21 -p message -e 500 -c 0 -i 114 -a 0 -x {22.42 21.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 118 Node 21 received {abc:yet another one}
++ -t 1.051 -s 21 -d 30 -p message -e 500 -c 0 -i 125 -a 0 -x {21.42 30.42 -1 ------- null}
+- -t 1.051 -s 21 -d 30 -p message -e 500 -c 0 -i 125 -a 0 -x {21.42 30.42 -1 ------- null}
+h -t 1.051 -s 21 -d 30 -p message -e 500 -c 0 -i 125 -a 0 -x {21.42 30.42 -1 ------- null}
++ -t 1.051 -s 21 -d 27 -p message -e 500 -c 0 -i 126 -a 0 -x {21.42 27.42 -1 ------- null}
+- -t 1.051 -s 21 -d 27 -p message -e 500 -c 0 -i 126 -a 0 -x {21.42 27.42 -1 ------- null}
+h -t 1.051 -s 21 -d 27 -p message -e 500 -c 0 -i 126 -a 0 -x {21.42 27.42 -1 ------- null}
+r -t 1.051 -s 26 -d 27 -p message -e 500 -c 0 -i 115 -a 0 -x {26.42 27.42 -1 ------- null}
+v -t 1.051 -e sim_annotation 1.051 119 Node 27 received {abc:yet another one}
++ -t 1.051 -s 27 -d 21 -p message -e 500 -c 0 -i 127 -a 0 -x {27.42 21.42 -1 ------- null}
+- -t 1.051 -s 27 -d 21 -p message -e 500 -c 0 -i 127 -a 0 -x {27.42 21.42 -1 ------- null}
+h -t 1.051 -s 27 -d 21 -p message -e 500 -c 0 -i 127 -a 0 -x {27.42 21.42 -1 ------- null}
+r -t 1.068 -s 13 -d 12 -p message -e 500 -c 0 -i 116 -a 0 -x {13.42 12.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 120 Node 12 received {abc:yet another one}
++ -t 1.068 -s 12 -d 11 -p message -e 500 -c 0 -i 128 -a 0 -x {12.42 11.42 -1 ------- null}
+- -t 1.068 -s 12 -d 11 -p message -e 500 -c 0 -i 128 -a 0 -x {12.42 11.42 -1 ------- null}
+h -t 1.068 -s 12 -d 11 -p message -e 500 -c 0 -i 128 -a 0 -x {12.42 11.42 -1 ------- null}
+r -t 1.068 -s 16 -d 15 -p message -e 500 -c 0 -i 117 -a 0 -x {16.42 15.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 121 Node 15 received redundant copy of message #abc
+r -t 1.068 -s 16 -d 17 -p message -e 500 -c 0 -i 118 -a 0 -x {16.42 17.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 122 Node 17 received {abc:yet another one}
++ -t 1.068 -s 17 -d 18 -p message -e 500 -c 0 -i 129 -a 0 -x {17.42 18.42 -1 ------- null}
+- -t 1.068 -s 17 -d 18 -p message -e 500 -c 0 -i 129 -a 0 -x {17.42 18.42 -1 ------- null}
+h -t 1.068 -s 17 -d 18 -p message -e 500 -c 0 -i 129 -a 0 -x {17.42 18.42 -1 ------- null}
+r -t 1.068 -s 0 -d 1 -p message -e 500 -c 0 -i 119 -a 0 -x {0.42 1.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 123 Node 1 received {abc:yet another one}
++ -t 1.068 -s 1 -d 2 -p message -e 500 -c 0 -i 130 -a 0 -x {1.42 2.42 -1 ------- null}
+- -t 1.068 -s 1 -d 2 -p message -e 500 -c 0 -i 130 -a 0 -x {1.42 2.42 -1 ------- null}
+h -t 1.068 -s 1 -d 2 -p message -e 500 -c 0 -i 130 -a 0 -x {1.42 2.42 -1 ------- null}
+r -t 1.068 -s 0 -d 6 -p message -e 500 -c 0 -i 120 -a 0 -x {0.42 6.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 124 Node 6 received {abc:yet another one}
++ -t 1.068 -s 6 -d 5 -p message -e 500 -c 0 -i 131 -a 0 -x {6.42 5.42 -1 ------- null}
+- -t 1.068 -s 6 -d 5 -p message -e 500 -c 0 -i 131 -a 0 -x {6.42 5.42 -1 ------- null}
+h -t 1.068 -s 6 -d 5 -p message -e 500 -c 0 -i 131 -a 0 -x {6.42 5.42 -1 ------- null}
+r -t 1.068 -s 10 -d 11 -p message -e 500 -c 0 -i 121 -a 0 -x {10.42 11.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 125 Node 11 received {abc:yet another one}
++ -t 1.068 -s 11 -d 12 -p message -e 500 -c 0 -i 132 -a 0 -x {11.42 12.42 -1 ------- null}
+- -t 1.068 -s 11 -d 12 -p message -e 500 -c 0 -i 132 -a 0 -x {11.42 12.42 -1 ------- null}
+h -t 1.068 -s 11 -d 12 -p message -e 500 -c 0 -i 132 -a 0 -x {11.42 12.42 -1 ------- null}
+r -t 1.068 -s 10 -d 29 -p message -e 500 -c 0 -i 122 -a 0 -x {10.42 29.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 126 Node 29 received {abc:yet another one}
++ -t 1.068 -s 29 -d 30 -p message -e 500 -c 0 -i 133 -a 0 -x {29.42 30.42 -1 ------- null}
+- -t 1.068 -s 29 -d 30 -p message -e 500 -c 0 -i 133 -a 0 -x {29.42 30.42 -1 ------- null}
+h -t 1.068 -s 29 -d 30 -p message -e 500 -c 0 -i 133 -a 0 -x {29.42 30.42 -1 ------- null}
++ -t 1.068 -s 29 -d 28 -p message -e 500 -c 0 -i 134 -a 0 -x {29.42 28.42 -1 ------- null}
+- -t 1.068 -s 29 -d 28 -p message -e 500 -c 0 -i 134 -a 0 -x {29.42 28.42 -1 ------- null}
+h -t 1.068 -s 29 -d 28 -p message -e 500 -c 0 -i 134 -a 0 -x {29.42 28.42 -1 ------- null}
+r -t 1.068 -s 15 -d 16 -p message -e 500 -c 0 -i 123 -a 0 -x {15.42 16.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 127 Node 16 received redundant copy of message #abc
+r -t 1.068 -s 20 -d 19 -p message -e 500 -c 0 -i 124 -a 0 -x {20.42 19.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 128 Node 19 received {abc:yet another one}
++ -t 1.068 -s 19 -d 18 -p message -e 500 -c 0 -i 135 -a 0 -x {19.42 18.42 -1 ------- null}
+- -t 1.068 -s 19 -d 18 -p message -e 500 -c 0 -i 135 -a 0 -x {19.42 18.42 -1 ------- null}
+h -t 1.068 -s 19 -d 18 -p message -e 500 -c 0 -i 135 -a 0 -x {19.42 18.42 -1 ------- null}
+r -t 1.068 -s 21 -d 30 -p message -e 500 -c 0 -i 125 -a 0 -x {21.42 30.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 129 Node 30 received {abc:yet another one}
++ -t 1.068 -s 30 -d 31 -p message -e 500 -c 0 -i 136 -a 0 -x {30.42 31.42 -1 ------- null}
+- -t 1.068 -s 30 -d 31 -p message -e 500 -c 0 -i 136 -a 0 -x {30.42 31.42 -1 ------- null}
+h -t 1.068 -s 30 -d 31 -p message -e 500 -c 0 -i 136 -a 0 -x {30.42 31.42 -1 ------- null}
++ -t 1.068 -s 30 -d 29 -p message -e 500 -c 0 -i 137 -a 0 -x {30.42 29.42 -1 ------- null}
+- -t 1.068 -s 30 -d 29 -p message -e 500 -c 0 -i 137 -a 0 -x {30.42 29.42 -1 ------- null}
+h -t 1.068 -s 30 -d 29 -p message -e 500 -c 0 -i 137 -a 0 -x {30.42 29.42 -1 ------- null}
+r -t 1.068 -s 21 -d 27 -p message -e 500 -c 0 -i 126 -a 0 -x {21.42 27.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 130 Node 27 received redundant copy of message #abc
+r -t 1.068 -s 27 -d 21 -p message -e 500 -c 0 -i 127 -a 0 -x {27.42 21.42 -1 ------- null}
+v -t 1.068 -e sim_annotation 1.068 131 Node 21 received redundant copy of message #abc
+r -t 1.085 -s 12 -d 11 -p message -e 500 -c 0 -i 128 -a 0 -x {12.42 11.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 132 Node 11 received redundant copy of message #abc
+r -t 1.085 -s 17 -d 18 -p message -e 500 -c 0 -i 129 -a 0 -x {17.42 18.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 133 Node 18 received {abc:yet another one}
++ -t 1.085 -s 18 -d 19 -p message -e 500 -c 0 -i 138 -a 0 -x {18.42 19.42 -1 ------- null}
+- -t 1.085 -s 18 -d 19 -p message -e 500 -c 0 -i 138 -a 0 -x {18.42 19.42 -1 ------- null}
+h -t 1.085 -s 18 -d 19 -p message -e 500 -c 0 -i 138 -a 0 -x {18.42 19.42 -1 ------- null}
+r -t 1.085 -s 1 -d 2 -p message -e 500 -c 0 -i 130 -a 0 -x {1.42 2.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 134 Node 2 received {abc:yet another one}
++ -t 1.085 -s 2 -d 3 -p message -e 500 -c 0 -i 139 -a 0 -x {2.42 3.42 -1 ------- null}
+- -t 1.085 -s 2 -d 3 -p message -e 500 -c 0 -i 139 -a 0 -x {2.42 3.42 -1 ------- null}
+h -t 1.085 -s 2 -d 3 -p message -e 500 -c 0 -i 139 -a 0 -x {2.42 3.42 -1 ------- null}
++ -t 1.085 -s 2 -d 28 -p message -e 500 -c 0 -i 140 -a 0 -x {2.42 28.42 -1 ------- null}
+- -t 1.085 -s 2 -d 28 -p message -e 500 -c 0 -i 140 -a 0 -x {2.42 28.42 -1 ------- null}
+h -t 1.085 -s 2 -d 28 -p message -e 500 -c 0 -i 140 -a 0 -x {2.42 28.42 -1 ------- null}
+r -t 1.085 -s 6 -d 5 -p message -e 500 -c 0 -i 131 -a 0 -x {6.42 5.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 135 Node 5 received {abc:yet another one}
++ -t 1.085 -s 5 -d 4 -p message -e 500 -c 0 -i 141 -a 0 -x {5.42 4.42 -1 ------- null}
+- -t 1.085 -s 5 -d 4 -p message -e 500 -c 0 -i 141 -a 0 -x {5.42 4.42 -1 ------- null}
+h -t 1.085 -s 5 -d 4 -p message -e 500 -c 0 -i 141 -a 0 -x {5.42 4.42 -1 ------- null}
+r -t 1.085 -s 11 -d 12 -p message -e 500 -c 0 -i 132 -a 0 -x {11.42 12.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 136 Node 12 received redundant copy of message #abc
+r -t 1.085 -s 29 -d 30 -p message -e 500 -c 0 -i 133 -a 0 -x {29.42 30.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 137 Node 30 received redundant copy of message #abc
+r -t 1.085 -s 29 -d 28 -p message -e 500 -c 0 -i 134 -a 0 -x {29.42 28.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 138 Node 28 received {abc:yet another one}
++ -t 1.085 -s 28 -d 34 -p message -e 500 -c 0 -i 142 -a 0 -x {28.42 34.42 -1 ------- null}
+- -t 1.085 -s 28 -d 34 -p message -e 500 -c 0 -i 142 -a 0 -x {28.42 34.42 -1 ------- null}
+h -t 1.085 -s 28 -d 34 -p message -e 500 -c 0 -i 142 -a 0 -x {28.42 34.42 -1 ------- null}
++ -t 1.085 -s 28 -d 2 -p message -e 500 -c 0 -i 143 -a 0 -x {28.42 2.42 -1 ------- null}
+- -t 1.085 -s 28 -d 2 -p message -e 500 -c 0 -i 143 -a 0 -x {28.42 2.42 -1 ------- null}
+h -t 1.085 -s 28 -d 2 -p message -e 500 -c 0 -i 143 -a 0 -x {28.42 2.42 -1 ------- null}
+r -t 1.085 -s 19 -d 18 -p message -e 500 -c 0 -i 135 -a 0 -x {19.42 18.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 139 Node 18 received redundant copy of message #abc
+r -t 1.085 -s 30 -d 31 -p message -e 500 -c 0 -i 136 -a 0 -x {30.42 31.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 140 Node 31 received {abc:yet another one}
++ -t 1.085 -s 31 -d 32 -p message -e 500 -c 0 -i 144 -a 0 -x {31.42 32.42 -1 ------- null}
+- -t 1.085 -s 31 -d 32 -p message -e 500 -c 0 -i 144 -a 0 -x {31.42 32.42 -1 ------- null}
+h -t 1.085 -s 31 -d 32 -p message -e 500 -c 0 -i 144 -a 0 -x {31.42 32.42 -1 ------- null}
+r -t 1.085 -s 30 -d 29 -p message -e 500 -c 0 -i 137 -a 0 -x {30.42 29.42 -1 ------- null}
+v -t 1.085 -e sim_annotation 1.085 141 Node 29 received redundant copy of message #abc
+r -t 1.102 -s 18 -d 19 -p message -e 500 -c 0 -i 138 -a 0 -x {18.42 19.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 142 Node 19 received redundant copy of message #abc
+r -t 1.102 -s 2 -d 3 -p message -e 500 -c 0 -i 139 -a 0 -x {2.42 3.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 143 Node 3 received {abc:yet another one}
++ -t 1.102 -s 3 -d 4 -p message -e 500 -c 0 -i 145 -a 0 -x {3.42 4.42 -1 ------- null}
+- -t 1.102 -s 3 -d 4 -p message -e 500 -c 0 -i 145 -a 0 -x {3.42 4.42 -1 ------- null}
+h -t 1.102 -s 3 -d 4 -p message -e 500 -c 0 -i 145 -a 0 -x {3.42 4.42 -1 ------- null}
+r -t 1.102 -s 2 -d 28 -p message -e 500 -c 0 -i 140 -a 0 -x {2.42 28.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 144 Node 28 received redundant copy of message #abc
+r -t 1.102 -s 5 -d 4 -p message -e 500 -c 0 -i 141 -a 0 -x {5.42 4.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 145 Node 4 received {abc:yet another one}
++ -t 1.102 -s 4 -d 3 -p message -e 500 -c 0 -i 146 -a 0 -x {4.42 3.42 -1 ------- null}
+- -t 1.102 -s 4 -d 3 -p message -e 500 -c 0 -i 146 -a 0 -x {4.42 3.42 -1 ------- null}
+h -t 1.102 -s 4 -d 3 -p message -e 500 -c 0 -i 146 -a 0 -x {4.42 3.42 -1 ------- null}
+r -t 1.102 -s 28 -d 34 -p message -e 500 -c 0 -i 142 -a 0 -x {28.42 34.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 146 Node 34 received {abc:yet another one}
++ -t 1.102 -s 34 -d 33 -p message -e 500 -c 0 -i 147 -a 0 -x {34.42 33.42 -1 ------- null}
+- -t 1.102 -s 34 -d 33 -p message -e 500 -c 0 -i 147 -a 0 -x {34.42 33.42 -1 ------- null}
+h -t 1.102 -s 34 -d 33 -p message -e 500 -c 0 -i 147 -a 0 -x {34.42 33.42 -1 ------- null}
+r -t 1.102 -s 28 -d 2 -p message -e 500 -c 0 -i 143 -a 0 -x {28.42 2.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 147 Node 2 received redundant copy of message #abc
+r -t 1.102 -s 31 -d 32 -p message -e 500 -c 0 -i 144 -a 0 -x {31.42 32.42 -1 ------- null}
+v -t 1.102 -e sim_annotation 1.102 148 Node 32 received {abc:yet another one}
++ -t 1.102 -s 32 -d 33 -p message -e 500 -c 0 -i 148 -a 0 -x {32.42 33.42 -1 ------- null}
+- -t 1.102 -s 32 -d 33 -p message -e 500 -c 0 -i 148 -a 0 -x {32.42 33.42 -1 ------- null}
+h -t 1.102 -s 32 -d 33 -p message -e 500 -c 0 -i 148 -a 0 -x {32.42 33.42 -1 ------- null}
+r -t 1.119 -s 3 -d 4 -p message -e 500 -c 0 -i 145 -a 0 -x {3.42 4.42 -1 ------- null}
+v -t 1.119 -e sim_annotation 1.119 149 Node 4 received redundant copy of message #abc
+r -t 1.119 -s 4 -d 3 -p message -e 500 -c 0 -i 146 -a 0 -x {4.42 3.42 -1 ------- null}
+v -t 1.119 -e sim_annotation 1.119 150 Node 3 received redundant copy of message #abc
+r -t 1.119 -s 34 -d 33 -p message -e 500 -c 0 -i 147 -a 0 -x {34.42 33.42 -1 ------- null}
+v -t 1.119 -e sim_annotation 1.119 151 Node 33 received {abc:yet another one}
++ -t 1.119 -s 33 -d 32 -p message -e 500 -c 0 -i 149 -a 0 -x {33.42 32.42 -1 ------- null}
+- -t 1.119 -s 33 -d 32 -p message -e 500 -c 0 -i 149 -a 0 -x {33.42 32.42 -1 ------- null}
+h -t 1.119 -s 33 -d 32 -p message -e 500 -c 0 -i 149 -a 0 -x {33.42 32.42 -1 ------- null}
+r -t 1.119 -s 32 -d 33 -p message -e 500 -c 0 -i 148 -a 0 -x {32.42 33.42 -1 ------- null}
+v -t 1.119 -e sim_annotation 1.119 152 Node 33 received redundant copy of message #abc
+r -t 1.136 -s 33 -d 32 -p message -e 500 -c 0 -i 149 -a 0 -x {33.42 32.42 -1 ------- null}
+v -t 1.136 -e sim_annotation 1.136 153 Node 32 received redundant copy of message #abc

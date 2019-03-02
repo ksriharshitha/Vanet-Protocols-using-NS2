@@ -1,0 +1,18 @@
+<edges>
+<edge id = "L01" from = "n1" to = "n0" type = "2L40"/>
+<edge id = "R01" from = "n0" to = "n1" type = "2L40"/>
+<edge id = "L12" from = "n2" to = "n1" type = "2L40"/>
+<edge id = "R12" from = "n1" to = "n2" type = "2L40"/>
+<edge id = "R23" from = "n2" to = "n3" type = "2L40"/>
+<edge id = "L23" from = "n3" to = "n2" type = "2L40"/>
+<edge id = "U04" from = "n4" to = "n0" type = "2L40"/>
+<edge id = "D04" from = "n0" to = "n4" type = "2L40"/>
+<edge id = "U14" from = "n4" to = "n1" type = "2L40"/>
+<edge id = "D14" from = "n1" to = "n4" type = "2L40"/>
+<edge id = "U25" from = "n5" to = "n2" type = "2L40"/>
+<edge id = "D25" from = "n2" to = "n5" type = "2L40"/>
+<edge id = "U35" from = "n5" to = "n3" type = "2L40"/>
+<edge id = "D35" from = "n3" to = "n5" type = "2L40"/>
+<edge id = "L45" from = "n5" to = "n4" type = "2L40"/>
+<edge id = "R45" from = "n4" to = "n5" type = "2L40"/>
+</edges>

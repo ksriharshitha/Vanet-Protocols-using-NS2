@@ -1,0 +1,603 @@
+v 0.20000000000000001 eval {set sim_annotation {Node 5 is sending {1:first message}}}
++ 0.2 5 4 message 900 ------- 0 5.42 4.42 -1 0
+- 0.2 5 4 message 900 ------- 0 5.42 4.42 -1 0
++ 0.2 5 6 message 900 ------- 0 5.42 6.42 -1 1
+- 0.2 5 6 message 900 ------- 0 5.42 6.42 -1 1
+r 0.2186 5 4 message 900 ------- 0 5.42 4.42 -1 0
+v 0.21860000000000002 eval {set sim_annotation {Node 4 received {1:first message}}}
++ 0.2186 4 3 message 900 ------- 0 4.42 3.42 -1 2
+- 0.2186 4 3 message 900 ------- 0 4.42 3.42 -1 2
+r 0.2186 5 6 message 900 ------- 0 5.42 6.42 -1 1
+v 0.21860000000000002 eval {set sim_annotation {Node 6 received {1:first message}}}
++ 0.2186 6 0 message 900 ------- 0 6.42 0.42 -1 3
+- 0.2186 6 0 message 900 ------- 0 6.42 0.42 -1 3
+r 0.2372 4 3 message 900 ------- 0 4.42 3.42 -1 2
+v 0.23720000000000002 eval {set sim_annotation {Node 3 received {1:first message}}}
++ 0.2372 3 2 message 900 ------- 0 3.42 2.42 -1 4
+- 0.2372 3 2 message 900 ------- 0 3.42 2.42 -1 4
+r 0.2372 6 0 message 900 ------- 0 6.42 0.42 -1 3
+v 0.23720000000000002 eval {set sim_annotation {Node 0 received {1:first message}}}
++ 0.2372 0 1 message 900 ------- 0 0.42 1.42 -1 5
+- 0.2372 0 1 message 900 ------- 0 0.42 1.42 -1 5
++ 0.2372 0 9 message 900 ------- 0 0.42 9.42 -1 6
+- 0.2372 0 9 message 900 ------- 0 0.42 9.42 -1 6
+r 0.2558 3 2 message 900 ------- 0 3.42 2.42 -1 4
+v 0.25580000000000003 eval {set sim_annotation {Node 2 received {1:first message}}}
++ 0.2558 2 1 message 900 ------- 0 2.42 1.42 -1 7
+- 0.2558 2 1 message 900 ------- 0 2.42 1.42 -1 7
++ 0.2558 2 28 message 900 ------- 0 2.42 28.42 -1 8
+- 0.2558 2 28 message 900 ------- 0 2.42 28.42 -1 8
+r 0.2558 0 1 message 900 ------- 0 0.42 1.42 -1 5
+v 0.25580000000000003 eval {set sim_annotation {Node 1 received {1:first message}}}
++ 0.2558 1 2 message 900 ------- 0 1.42 2.42 -1 9
+- 0.2558 1 2 message 900 ------- 0 1.42 2.42 -1 9
+r 0.2558 0 9 message 900 ------- 0 0.42 9.42 -1 6
+v 0.25580000000000003 eval {set sim_annotation {Node 9 received {1:first message}}}
++ 0.2558 9 8 message 900 ------- 0 9.42 8.42 -1 10
+- 0.2558 9 8 message 900 ------- 0 9.42 8.42 -1 10
++ 0.2558 9 10 message 900 ------- 0 9.42 10.42 -1 11
+- 0.2558 9 10 message 900 ------- 0 9.42 10.42 -1 11
+r 0.2744 2 1 message 900 ------- 0 2.42 1.42 -1 7
+v 0.27440000000000003 eval {set sim_annotation {Node 1 received redundant copy of message #1}}
+r 0.2744 2 28 message 900 ------- 0 2.42 28.42 -1 8
+v 0.27440000000000003 eval {set sim_annotation {Node 28 received {1:first message}}}
++ 0.2744 28 34 message 900 ------- 0 28.42 34.42 -1 12
+- 0.2744 28 34 message 900 ------- 0 28.42 34.42 -1 12
++ 0.2744 28 29 message 900 ------- 0 28.42 29.42 -1 13
+- 0.2744 28 29 message 900 ------- 0 28.42 29.42 -1 13
+r 0.2744 1 2 message 900 ------- 0 1.42 2.42 -1 9
+v 0.27440000000000003 eval {set sim_annotation {Node 2 received redundant copy of message #1}}
+r 0.2744 9 8 message 900 ------- 0 9.42 8.42 -1 10
+v 0.27440000000000003 eval {set sim_annotation {Node 8 received {1:first message}}}
++ 0.2744 8 7 message 900 ------- 0 8.42 7.42 -1 14
+- 0.2744 8 7 message 900 ------- 0 8.42 7.42 -1 14
++ 0.2744 8 24 message 900 ------- 0 8.42 24.42 -1 15
+- 0.2744 8 24 message 900 ------- 0 8.42 24.42 -1 15
+r 0.2744 9 10 message 900 ------- 0 9.42 10.42 -1 11
+v 0.27440000000000003 eval {set sim_annotation {Node 10 received {1:first message}}}
++ 0.2744 10 11 message 900 ------- 0 10.42 11.42 -1 16
+- 0.2744 10 11 message 900 ------- 0 10.42 11.42 -1 16
++ 0.2744 10 29 message 900 ------- 0 10.42 29.42 -1 17
+- 0.2744 10 29 message 900 ------- 0 10.42 29.42 -1 17
+r 0.293 28 34 message 900 ------- 0 28.42 34.42 -1 12
+v 0.29300000000000004 eval {set sim_annotation {Node 34 received {1:first message}}}
++ 0.293 34 33 message 900 ------- 0 34.42 33.42 -1 18
+- 0.293 34 33 message 900 ------- 0 34.42 33.42 -1 18
+r 0.293 28 29 message 900 ------- 0 28.42 29.42 -1 13
+v 0.29300000000000004 eval {set sim_annotation {Node 29 received {1:first message}}}
++ 0.293 29 30 message 900 ------- 0 29.42 30.42 -1 19
+- 0.293 29 30 message 900 ------- 0 29.42 30.42 -1 19
++ 0.293 29 10 message 900 ------- 0 29.42 10.42 -1 20
+- 0.293 29 10 message 900 ------- 0 29.42 10.42 -1 20
+r 0.293 8 7 message 900 ------- 0 8.42 7.42 -1 14
+v 0.29300000000000004 eval {set sim_annotation {Node 7 received {1:first message}}}
++ 0.293 7 13 message 900 ------- 0 7.42 13.42 -1 21
+- 0.293 7 13 message 900 ------- 0 7.42 13.42 -1 21
++ 0.293 7 16 message 900 ------- 0 7.42 16.42 -1 22
+- 0.293 7 16 message 900 ------- 0 7.42 16.42 -1 22
+r 0.293 8 24 message 900 ------- 0 8.42 24.42 -1 15
+v 0.29300000000000004 eval {set sim_annotation {Node 24 received {1:first message}}}
++ 0.293 24 23 message 900 ------- 0 24.42 23.42 -1 23
+- 0.293 24 23 message 900 ------- 0 24.42 23.42 -1 23
++ 0.293 24 25 message 900 ------- 0 24.42 25.42 -1 24
+- 0.293 24 25 message 900 ------- 0 24.42 25.42 -1 24
+r 0.293 10 11 message 900 ------- 0 10.42 11.42 -1 16
+v 0.29300000000000004 eval {set sim_annotation {Node 11 received {1:first message}}}
++ 0.293 11 12 message 900 ------- 0 11.42 12.42 -1 25
+- 0.293 11 12 message 900 ------- 0 11.42 12.42 -1 25
+r 0.293 10 29 message 900 ------- 0 10.42 29.42 -1 17
+v 0.29300000000000004 eval {set sim_annotation {Node 29 received redundant copy of message #1}}
+r 0.3116 34 33 message 900 ------- 0 34.42 33.42 -1 18
+v 0.31160000000000004 eval {set sim_annotation {Node 33 received {1:first message}}}
++ 0.3116 33 32 message 900 ------- 0 33.42 32.42 -1 26
+- 0.3116 33 32 message 900 ------- 0 33.42 32.42 -1 26
+r 0.3116 29 30 message 900 ------- 0 29.42 30.42 -1 19
+v 0.31160000000000004 eval {set sim_annotation {Node 30 received {1:first message}}}
++ 0.3116 30 31 message 900 ------- 0 30.42 31.42 -1 27
+- 0.3116 30 31 message 900 ------- 0 30.42 31.42 -1 27
++ 0.3116 30 21 message 900 ------- 0 30.42 21.42 -1 28
+- 0.3116 30 21 message 900 ------- 0 30.42 21.42 -1 28
+r 0.3116 29 10 message 900 ------- 0 29.42 10.42 -1 20
+v 0.31160000000000004 eval {set sim_annotation {Node 10 received redundant copy of message #1}}
+r 0.3116 7 13 message 900 ------- 0 7.42 13.42 -1 21
+v 0.31160000000000004 eval {set sim_annotation {Node 13 received {1:first message}}}
++ 0.3116 13 12 message 900 ------- 0 13.42 12.42 -1 29
+- 0.3116 13 12 message 900 ------- 0 13.42 12.42 -1 29
+r 0.3116 7 16 message 900 ------- 0 7.42 16.42 -1 22
+v 0.31160000000000004 eval {set sim_annotation {Node 16 received {1:first message}}}
++ 0.3116 16 15 message 900 ------- 0 16.42 15.42 -1 30
+- 0.3116 16 15 message 900 ------- 0 16.42 15.42 -1 30
++ 0.3116 16 17 message 900 ------- 0 16.42 17.42 -1 31
+- 0.3116 16 17 message 900 ------- 0 16.42 17.42 -1 31
+r 0.3116 24 23 message 900 ------- 0 24.42 23.42 -1 23
+v 0.31160000000000004 eval {set sim_annotation {Node 23 received {1:first message}}}
++ 0.3116 23 14 message 900 ------- 0 23.42 14.42 -1 32
+- 0.3116 23 14 message 900 ------- 0 23.42 14.42 -1 32
++ 0.3116 23 22 message 900 ------- 0 23.42 22.42 -1 33
+- 0.3116 23 22 message 900 ------- 0 23.42 22.42 -1 33
+r 0.3116 24 25 message 900 ------- 0 24.42 25.42 -1 24
+v 0.31160000000000004 eval {set sim_annotation {Node 25 received {1:first message}}}
++ 0.3116 25 26 message 900 ------- 0 25.42 26.42 -1 34
+- 0.3116 25 26 message 900 ------- 0 25.42 26.42 -1 34
+r 0.3116 11 12 message 900 ------- 0 11.42 12.42 -1 25
+v 0.31160000000000004 eval {set sim_annotation {Node 12 received {1:first message}}}
++ 0.3116 12 13 message 900 ------- 0 12.42 13.42 -1 35
+- 0.3116 12 13 message 900 ------- 0 12.42 13.42 -1 35
+r 0.3302 33 32 message 900 ------- 0 33.42 32.42 -1 26
+v 0.33020000000000005 eval {set sim_annotation {Node 32 received {1:first message}}}
++ 0.3302 32 31 message 900 ------- 0 32.42 31.42 -1 36
+- 0.3302 32 31 message 900 ------- 0 32.42 31.42 -1 36
+r 0.3302 30 31 message 900 ------- 0 30.42 31.42 -1 27
+v 0.33020000000000005 eval {set sim_annotation {Node 31 received {1:first message}}}
++ 0.3302 31 32 message 900 ------- 0 31.42 32.42 -1 37
+- 0.3302 31 32 message 900 ------- 0 31.42 32.42 -1 37
+r 0.3302 30 21 message 900 ------- 0 30.42 21.42 -1 28
+v 0.33020000000000005 eval {set sim_annotation {Node 21 received {1:first message}}}
++ 0.3302 21 22 message 900 ------- 0 21.42 22.42 -1 38
+- 0.3302 21 22 message 900 ------- 0 21.42 22.42 -1 38
++ 0.3302 21 27 message 900 ------- 0 21.42 27.42 -1 39
+- 0.3302 21 27 message 900 ------- 0 21.42 27.42 -1 39
+r 0.3302 13 12 message 900 ------- 0 13.42 12.42 -1 29
+v 0.33020000000000005 eval {set sim_annotation {Node 12 received redundant copy of message #1}}
+r 0.3302 16 15 message 900 ------- 0 16.42 15.42 -1 30
+v 0.33020000000000005 eval {set sim_annotation {Node 15 received {1:first message}}}
++ 0.3302 15 14 message 900 ------- 0 15.42 14.42 -1 40
+- 0.3302 15 14 message 900 ------- 0 15.42 14.42 -1 40
+r 0.3302 16 17 message 900 ------- 0 16.42 17.42 -1 31
+v 0.33020000000000005 eval {set sim_annotation {Node 17 received {1:first message}}}
++ 0.3302 17 18 message 900 ------- 0 17.42 18.42 -1 41
+- 0.3302 17 18 message 900 ------- 0 17.42 18.42 -1 41
+r 0.3302 23 14 message 900 ------- 0 23.42 14.42 -1 32
+v 0.33020000000000005 eval {set sim_annotation {Node 14 received {1:first message}}}
++ 0.3302 14 15 message 900 ------- 0 14.42 15.42 -1 42
+- 0.3302 14 15 message 900 ------- 0 14.42 15.42 -1 42
++ 0.3302 14 20 message 900 ------- 0 14.42 20.42 -1 43
+- 0.3302 14 20 message 900 ------- 0 14.42 20.42 -1 43
+r 0.3302 23 22 message 900 ------- 0 23.42 22.42 -1 33
+v 0.33020000000000005 eval {set sim_annotation {Node 22 received {1:first message}}}
++ 0.3302 22 21 message 900 ------- 0 22.42 21.42 -1 44
+- 0.3302 22 21 message 900 ------- 0 22.42 21.42 -1 44
+r 0.3302 25 26 message 900 ------- 0 25.42 26.42 -1 34
+v 0.33020000000000005 eval {set sim_annotation {Node 26 received {1:first message}}}
++ 0.3302 26 27 message 900 ------- 0 26.42 27.42 -1 45
+- 0.3302 26 27 message 900 ------- 0 26.42 27.42 -1 45
+r 0.3302 12 13 message 900 ------- 0 12.42 13.42 -1 35
+v 0.33020000000000005 eval {set sim_annotation {Node 13 received redundant copy of message #1}}
+r 0.3488 32 31 message 900 ------- 0 32.42 31.42 -1 36
+v 0.34880000000000005 eval {set sim_annotation {Node 31 received redundant copy of message #1}}
+r 0.3488 31 32 message 900 ------- 0 31.42 32.42 -1 37
+v 0.34880000000000005 eval {set sim_annotation {Node 32 received redundant copy of message #1}}
+r 0.3488 21 22 message 900 ------- 0 21.42 22.42 -1 38
+v 0.34880000000000005 eval {set sim_annotation {Node 22 received redundant copy of message #1}}
+r 0.3488 21 27 message 900 ------- 0 21.42 27.42 -1 39
+v 0.34880000000000005 eval {set sim_annotation {Node 27 received {1:first message}}}
++ 0.3488 27 26 message 900 ------- 0 27.42 26.42 -1 46
+- 0.3488 27 26 message 900 ------- 0 27.42 26.42 -1 46
+r 0.3488 15 14 message 900 ------- 0 15.42 14.42 -1 40
+v 0.34880000000000005 eval {set sim_annotation {Node 14 received redundant copy of message #1}}
+r 0.3488 17 18 message 900 ------- 0 17.42 18.42 -1 41
+v 0.34880000000000005 eval {set sim_annotation {Node 18 received {1:first message}}}
++ 0.3488 18 19 message 900 ------- 0 18.42 19.42 -1 47
+- 0.3488 18 19 message 900 ------- 0 18.42 19.42 -1 47
+r 0.3488 14 15 message 900 ------- 0 14.42 15.42 -1 42
+v 0.34880000000000005 eval {set sim_annotation {Node 15 received redundant copy of message #1}}
+r 0.3488 14 20 message 900 ------- 0 14.42 20.42 -1 43
+v 0.34880000000000005 eval {set sim_annotation {Node 20 received {1:first message}}}
++ 0.3488 20 19 message 900 ------- 0 20.42 19.42 -1 48
+- 0.3488 20 19 message 900 ------- 0 20.42 19.42 -1 48
+r 0.3488 22 21 message 900 ------- 0 22.42 21.42 -1 44
+v 0.34880000000000005 eval {set sim_annotation {Node 21 received redundant copy of message #1}}
+r 0.3488 26 27 message 900 ------- 0 26.42 27.42 -1 45
+v 0.34880000000000005 eval {set sim_annotation {Node 27 received redundant copy of message #1}}
+r 0.3674 27 26 message 900 ------- 0 27.42 26.42 -1 46
+v 0.36740000000000006 eval {set sim_annotation {Node 26 received redundant copy of message #1}}
+r 0.3674 18 19 message 900 ------- 0 18.42 19.42 -1 47
+v 0.36740000000000006 eval {set sim_annotation {Node 19 received {1:first message}}}
++ 0.3674 19 20 message 900 ------- 0 19.42 20.42 -1 49
+- 0.3674 19 20 message 900 ------- 0 19.42 20.42 -1 49
+r 0.3674 20 19 message 900 ------- 0 20.42 19.42 -1 48
+v 0.36740000000000006 eval {set sim_annotation {Node 19 received redundant copy of message #1}}
+r 0.386 19 20 message 900 ------- 0 19.42 20.42 -1 49
+v 0.38600000000000007 eval {set sim_annotation {Node 20 received redundant copy of message #1}}
+v 0.5 eval {set sim_annotation {Node 17 is sending {2:another one}}}
++ 0.5 17 16 message 700 ------- 0 17.42 16.42 -1 50
+- 0.5 17 16 message 700 ------- 0 17.42 16.42 -1 50
++ 0.5 17 18 message 700 ------- 0 17.42 18.42 -1 51
+- 0.5 17 18 message 700 ------- 0 17.42 18.42 -1 51
+r 0.5178 17 16 message 700 ------- 0 17.42 16.42 -1 50
+v 0.51780000000000004 eval {set sim_annotation {Node 16 received {2:another one}}}
++ 0.5178 16 7 message 700 ------- 0 16.42 7.42 -1 52
+- 0.5178 16 7 message 700 ------- 0 16.42 7.42 -1 52
++ 0.5178 16 15 message 700 ------- 0 16.42 15.42 -1 53
+- 0.5178 16 15 message 700 ------- 0 16.42 15.42 -1 53
+r 0.5178 17 18 message 700 ------- 0 17.42 18.42 -1 51
+v 0.51780000000000004 eval {set sim_annotation {Node 18 received {2:another one}}}
++ 0.5178 18 19 message 700 ------- 0 18.42 19.42 -1 54
+- 0.5178 18 19 message 700 ------- 0 18.42 19.42 -1 54
+r 0.5356 16 7 message 700 ------- 0 16.42 7.42 -1 52
+v 0.53560000000000008 eval {set sim_annotation {Node 7 received {2:another one}}}
++ 0.5356 7 8 message 700 ------- 0 7.42 8.42 -1 55
+- 0.5356 7 8 message 700 ------- 0 7.42 8.42 -1 55
++ 0.5356 7 13 message 700 ------- 0 7.42 13.42 -1 56
+- 0.5356 7 13 message 700 ------- 0 7.42 13.42 -1 56
+r 0.5356 16 15 message 700 ------- 0 16.42 15.42 -1 53
+v 0.53560000000000008 eval {set sim_annotation {Node 15 received {2:another one}}}
++ 0.5356 15 14 message 700 ------- 0 15.42 14.42 -1 57
+- 0.5356 15 14 message 700 ------- 0 15.42 14.42 -1 57
+r 0.5356 18 19 message 700 ------- 0 18.42 19.42 -1 54
+v 0.53560000000000008 eval {set sim_annotation {Node 19 received {2:another one}}}
++ 0.5356 19 20 message 700 ------- 0 19.42 20.42 -1 58
+- 0.5356 19 20 message 700 ------- 0 19.42 20.42 -1 58
+r 0.5534 7 8 message 700 ------- 0 7.42 8.42 -1 55
+v 0.55340000000000011 eval {set sim_annotation {Node 8 received {2:another one}}}
++ 0.5534 8 9 message 700 ------- 0 8.42 9.42 -1 59
+- 0.5534 8 9 message 700 ------- 0 8.42 9.42 -1 59
++ 0.5534 8 24 message 700 ------- 0 8.42 24.42 -1 60
+- 0.5534 8 24 message 700 ------- 0 8.42 24.42 -1 60
+r 0.5534 7 13 message 700 ------- 0 7.42 13.42 -1 56
+v 0.55340000000000011 eval {set sim_annotation {Node 13 received {2:another one}}}
++ 0.5534 13 12 message 700 ------- 0 13.42 12.42 -1 61
+- 0.5534 13 12 message 700 ------- 0 13.42 12.42 -1 61
+r 0.5534 15 14 message 700 ------- 0 15.42 14.42 -1 57
+v 0.55340000000000011 eval {set sim_annotation {Node 14 received {2:another one}}}
++ 0.5534 14 20 message 700 ------- 0 14.42 20.42 -1 62
+- 0.5534 14 20 message 700 ------- 0 14.42 20.42 -1 62
++ 0.5534 14 23 message 700 ------- 0 14.42 23.42 -1 63
+- 0.5534 14 23 message 700 ------- 0 14.42 23.42 -1 63
+r 0.5534 19 20 message 700 ------- 0 19.42 20.42 -1 58
+v 0.55340000000000011 eval {set sim_annotation {Node 20 received {2:another one}}}
++ 0.5534 20 14 message 700 ------- 0 20.42 14.42 -1 64
+- 0.5534 20 14 message 700 ------- 0 20.42 14.42 -1 64
+r 0.5712 8 9 message 700 ------- 0 8.42 9.42 -1 59
+v 0.57120000000000015 eval {set sim_annotation {Node 9 received {2:another one}}}
++ 0.5712 9 0 message 700 ------- 0 9.42 0.42 -1 65
+- 0.5712 9 0 message 700 ------- 0 9.42 0.42 -1 65
++ 0.5712 9 10 message 700 ------- 0 9.42 10.42 -1 66
+- 0.5712 9 10 message 700 ------- 0 9.42 10.42 -1 66
+r 0.5712 8 24 message 700 ------- 0 8.42 24.42 -1 60
+v 0.57120000000000015 eval {set sim_annotation {Node 24 received {2:another one}}}
++ 0.5712 24 23 message 700 ------- 0 24.42 23.42 -1 67
+- 0.5712 24 23 message 700 ------- 0 24.42 23.42 -1 67
++ 0.5712 24 25 message 700 ------- 0 24.42 25.42 -1 68
+- 0.5712 24 25 message 700 ------- 0 24.42 25.42 -1 68
+r 0.5712 13 12 message 700 ------- 0 13.42 12.42 -1 61
+v 0.57120000000000015 eval {set sim_annotation {Node 12 received {2:another one}}}
++ 0.5712 12 11 message 700 ------- 0 12.42 11.42 -1 69
+- 0.5712 12 11 message 700 ------- 0 12.42 11.42 -1 69
+r 0.5712 14 20 message 700 ------- 0 14.42 20.42 -1 62
+v 0.57120000000000015 eval {set sim_annotation {Node 20 received redundant copy of message #2}}
+r 0.5712 14 23 message 700 ------- 0 14.42 23.42 -1 63
+v 0.57120000000000015 eval {set sim_annotation {Node 23 received {2:another one}}}
++ 0.5712 23 22 message 700 ------- 0 23.42 22.42 -1 70
+- 0.5712 23 22 message 700 ------- 0 23.42 22.42 -1 70
++ 0.5712 23 24 message 700 ------- 0 23.42 24.42 -1 71
+- 0.5712 23 24 message 700 ------- 0 23.42 24.42 -1 71
+r 0.5712 20 14 message 700 ------- 0 20.42 14.42 -1 64
+v 0.57120000000000015 eval {set sim_annotation {Node 14 received redundant copy of message #2}}
+r 0.589 9 0 message 700 ------- 0 9.42 0.42 -1 65
+v 0.58900000000000019 eval {set sim_annotation {Node 0 received {2:another one}}}
++ 0.589 0 1 message 700 ------- 0 0.42 1.42 -1 72
+- 0.589 0 1 message 700 ------- 0 0.42 1.42 -1 72
++ 0.589 0 6 message 700 ------- 0 0.42 6.42 -1 73
+- 0.589 0 6 message 700 ------- 0 0.42 6.42 -1 73
+r 0.589 9 10 message 700 ------- 0 9.42 10.42 -1 66
+v 0.58900000000000019 eval {set sim_annotation {Node 10 received {2:another one}}}
++ 0.589 10 11 message 700 ------- 0 10.42 11.42 -1 74
+- 0.589 10 11 message 700 ------- 0 10.42 11.42 -1 74
++ 0.589 10 29 message 700 ------- 0 10.42 29.42 -1 75
+- 0.589 10 29 message 700 ------- 0 10.42 29.42 -1 75
+r 0.589 24 23 message 700 ------- 0 24.42 23.42 -1 67
+v 0.58900000000000019 eval {set sim_annotation {Node 23 received redundant copy of message #2}}
+r 0.589 24 25 message 700 ------- 0 24.42 25.42 -1 68
+v 0.58900000000000019 eval {set sim_annotation {Node 25 received {2:another one}}}
++ 0.589 25 26 message 700 ------- 0 25.42 26.42 -1 76
+- 0.589 25 26 message 700 ------- 0 25.42 26.42 -1 76
+r 0.589 12 11 message 700 ------- 0 12.42 11.42 -1 69
+v 0.58900000000000019 eval {set sim_annotation {Node 11 received {2:another one}}}
++ 0.589 11 10 message 700 ------- 0 11.42 10.42 -1 77
+- 0.589 11 10 message 700 ------- 0 11.42 10.42 -1 77
+r 0.589 23 22 message 700 ------- 0 23.42 22.42 -1 70
+v 0.58900000000000019 eval {set sim_annotation {Node 22 received {2:another one}}}
++ 0.589 22 21 message 700 ------- 0 22.42 21.42 -1 78
+- 0.589 22 21 message 700 ------- 0 22.42 21.42 -1 78
+r 0.589 23 24 message 700 ------- 0 23.42 24.42 -1 71
+v 0.58900000000000019 eval {set sim_annotation {Node 24 received redundant copy of message #2}}
+r 0.6068 0 1 message 700 ------- 0 0.42 1.42 -1 72
+v 0.60680000000000023 eval {set sim_annotation {Node 1 received {2:another one}}}
++ 0.6068 1 2 message 700 ------- 0 1.42 2.42 -1 79
+- 0.6068 1 2 message 700 ------- 0 1.42 2.42 -1 79
+r 0.6068 0 6 message 700 ------- 0 0.42 6.42 -1 73
+v 0.60680000000000023 eval {set sim_annotation {Node 6 received {2:another one}}}
++ 0.6068 6 5 message 700 ------- 0 6.42 5.42 -1 80
+- 0.6068 6 5 message 700 ------- 0 6.42 5.42 -1 80
+r 0.6068 10 11 message 700 ------- 0 10.42 11.42 -1 74
+v 0.60680000000000023 eval {set sim_annotation {Node 11 received redundant copy of message #2}}
+r 0.6068 10 29 message 700 ------- 0 10.42 29.42 -1 75
+v 0.60680000000000023 eval {set sim_annotation {Node 29 received {2:another one}}}
++ 0.6068 29 30 message 700 ------- 0 29.42 30.42 -1 81
+- 0.6068 29 30 message 700 ------- 0 29.42 30.42 -1 81
++ 0.6068 29 28 message 700 ------- 0 29.42 28.42 -1 82
+- 0.6068 29 28 message 700 ------- 0 29.42 28.42 -1 82
+r 0.6068 25 26 message 700 ------- 0 25.42 26.42 -1 76
+v 0.60680000000000023 eval {set sim_annotation {Node 26 received {2:another one}}}
++ 0.6068 26 27 message 700 ------- 0 26.42 27.42 -1 83
+- 0.6068 26 27 message 700 ------- 0 26.42 27.42 -1 83
+r 0.6068 11 10 message 700 ------- 0 11.42 10.42 -1 77
+v 0.60680000000000023 eval {set sim_annotation {Node 10 received redundant copy of message #2}}
+r 0.6068 22 21 message 700 ------- 0 22.42 21.42 -1 78
+v 0.60680000000000023 eval {set sim_annotation {Node 21 received {2:another one}}}
++ 0.6068 21 30 message 700 ------- 0 21.42 30.42 -1 84
+- 0.6068 21 30 message 700 ------- 0 21.42 30.42 -1 84
++ 0.6068 21 27 message 700 ------- 0 21.42 27.42 -1 85
+- 0.6068 21 27 message 700 ------- 0 21.42 27.42 -1 85
+r 0.6246 1 2 message 700 ------- 0 1.42 2.42 -1 79
+v 0.62460000000000027 eval {set sim_annotation {Node 2 received {2:another one}}}
++ 0.6246 2 3 message 700 ------- 0 2.42 3.42 -1 86
+- 0.6246 2 3 message 700 ------- 0 2.42 3.42 -1 86
++ 0.6246 2 28 message 700 ------- 0 2.42 28.42 -1 87
+- 0.6246 2 28 message 700 ------- 0 2.42 28.42 -1 87
+r 0.6246 6 5 message 700 ------- 0 6.42 5.42 -1 80
+v 0.62460000000000027 eval {set sim_annotation {Node 5 received {2:another one}}}
++ 0.6246 5 4 message 700 ------- 0 5.42 4.42 -1 88
+- 0.6246 5 4 message 700 ------- 0 5.42 4.42 -1 88
+r 0.6246 29 30 message 700 ------- 0 29.42 30.42 -1 81
+v 0.62460000000000027 eval {set sim_annotation {Node 30 received {2:another one}}}
++ 0.6246 30 31 message 700 ------- 0 30.42 31.42 -1 89
+- 0.6246 30 31 message 700 ------- 0 30.42 31.42 -1 89
++ 0.6246 30 21 message 700 ------- 0 30.42 21.42 -1 90
+- 0.6246 30 21 message 700 ------- 0 30.42 21.42 -1 90
+r 0.6246 29 28 message 700 ------- 0 29.42 28.42 -1 82
+v 0.62460000000000027 eval {set sim_annotation {Node 28 received {2:another one}}}
++ 0.6246 28 34 message 700 ------- 0 28.42 34.42 -1 91
+- 0.6246 28 34 message 700 ------- 0 28.42 34.42 -1 91
++ 0.6246 28 2 message 700 ------- 0 28.42 2.42 -1 92
+- 0.6246 28 2 message 700 ------- 0 28.42 2.42 -1 92
+r 0.6246 26 27 message 700 ------- 0 26.42 27.42 -1 83
+v 0.62460000000000027 eval {set sim_annotation {Node 27 received {2:another one}}}
++ 0.6246 27 21 message 700 ------- 0 27.42 21.42 -1 93
+- 0.6246 27 21 message 700 ------- 0 27.42 21.42 -1 93
+r 0.6246 21 30 message 700 ------- 0 21.42 30.42 -1 84
+v 0.62460000000000027 eval {set sim_annotation {Node 30 received redundant copy of message #2}}
+r 0.6246 21 27 message 700 ------- 0 21.42 27.42 -1 85
+v 0.62460000000000027 eval {set sim_annotation {Node 27 received redundant copy of message #2}}
+r 0.6424 2 3 message 700 ------- 0 2.42 3.42 -1 86
+v 0.6424000000000003 eval {set sim_annotation {Node 3 received {2:another one}}}
++ 0.6424 3 4 message 700 ------- 0 3.42 4.42 -1 94
+- 0.6424 3 4 message 700 ------- 0 3.42 4.42 -1 94
+r 0.6424 2 28 message 700 ------- 0 2.42 28.42 -1 87
+v 0.6424000000000003 eval {set sim_annotation {Node 28 received redundant copy of message #2}}
+r 0.6424 5 4 message 700 ------- 0 5.42 4.42 -1 88
+v 0.6424000000000003 eval {set sim_annotation {Node 4 received {2:another one}}}
++ 0.6424 4 3 message 700 ------- 0 4.42 3.42 -1 95
+- 0.6424 4 3 message 700 ------- 0 4.42 3.42 -1 95
+r 0.6424 30 31 message 700 ------- 0 30.42 31.42 -1 89
+v 0.6424000000000003 eval {set sim_annotation {Node 31 received {2:another one}}}
++ 0.6424 31 32 message 700 ------- 0 31.42 32.42 -1 96
+- 0.6424 31 32 message 700 ------- 0 31.42 32.42 -1 96
+r 0.6424 30 21 message 700 ------- 0 30.42 21.42 -1 90
+v 0.6424000000000003 eval {set sim_annotation {Node 21 received redundant copy of message #2}}
+r 0.6424 28 34 message 700 ------- 0 28.42 34.42 -1 91
+v 0.6424000000000003 eval {set sim_annotation {Node 34 received {2:another one}}}
++ 0.6424 34 33 message 700 ------- 0 34.42 33.42 -1 97
+- 0.6424 34 33 message 700 ------- 0 34.42 33.42 -1 97
+r 0.6424 28 2 message 700 ------- 0 28.42 2.42 -1 92
+v 0.6424000000000003 eval {set sim_annotation {Node 2 received redundant copy of message #2}}
+r 0.6424 27 21 message 700 ------- 0 27.42 21.42 -1 93
+v 0.6424000000000003 eval {set sim_annotation {Node 21 received redundant copy of message #2}}
+r 0.6602 3 4 message 700 ------- 0 3.42 4.42 -1 94
+v 0.66020000000000034 eval {set sim_annotation {Node 4 received redundant copy of message #2}}
+r 0.6602 4 3 message 700 ------- 0 4.42 3.42 -1 95
+v 0.66020000000000034 eval {set sim_annotation {Node 3 received redundant copy of message #2}}
+r 0.6602 31 32 message 700 ------- 0 31.42 32.42 -1 96
+v 0.66020000000000034 eval {set sim_annotation {Node 32 received {2:another one}}}
++ 0.6602 32 33 message 700 ------- 0 32.42 33.42 -1 98
+- 0.6602 32 33 message 700 ------- 0 32.42 33.42 -1 98
+r 0.6602 34 33 message 700 ------- 0 34.42 33.42 -1 97
+v 0.66020000000000034 eval {set sim_annotation {Node 33 received {2:another one}}}
++ 0.6602 33 32 message 700 ------- 0 33.42 32.42 -1 99
+- 0.6602 33 32 message 700 ------- 0 33.42 32.42 -1 99
+r 0.678 32 33 message 700 ------- 0 32.42 33.42 -1 98
+v 0.67800000000000038 eval {set sim_annotation {Node 33 received redundant copy of message #2}}
+r 0.678 33 32 message 700 ------- 0 33.42 32.42 -1 99
+v 0.67800000000000038 eval {set sim_annotation {Node 32 received redundant copy of message #2}}
+v 1 eval {set sim_annotation {Node 24 is sending {abc:yet another one}}}
++ 1 24 8 message 500 ------- 0 24.42 8.42 -1 100
+- 1 24 8 message 500 ------- 0 24.42 8.42 -1 100
++ 1 24 23 message 500 ------- 0 24.42 23.42 -1 101
+- 1 24 23 message 500 ------- 0 24.42 23.42 -1 101
++ 1 24 25 message 500 ------- 0 24.42 25.42 -1 102
+- 1 24 25 message 500 ------- 0 24.42 25.42 -1 102
+r 1.017 24 8 message 500 ------- 0 24.42 8.42 -1 100
+v 1.0169999999999999 eval {set sim_annotation {Node 8 received {abc:yet another one}}}
++ 1.017 8 7 message 500 ------- 0 8.42 7.42 -1 103
+- 1.017 8 7 message 500 ------- 0 8.42 7.42 -1 103
++ 1.017 8 9 message 500 ------- 0 8.42 9.42 -1 104
+- 1.017 8 9 message 500 ------- 0 8.42 9.42 -1 104
+r 1.017 24 23 message 500 ------- 0 24.42 23.42 -1 101
+v 1.0169999999999999 eval {set sim_annotation {Node 23 received {abc:yet another one}}}
++ 1.017 23 14 message 500 ------- 0 23.42 14.42 -1 105
+- 1.017 23 14 message 500 ------- 0 23.42 14.42 -1 105
++ 1.017 23 22 message 500 ------- 0 23.42 22.42 -1 106
+- 1.017 23 22 message 500 ------- 0 23.42 22.42 -1 106
+r 1.017 24 25 message 500 ------- 0 24.42 25.42 -1 102
+v 1.0169999999999999 eval {set sim_annotation {Node 25 received {abc:yet another one}}}
++ 1.017 25 26 message 500 ------- 0 25.42 26.42 -1 107
+- 1.017 25 26 message 500 ------- 0 25.42 26.42 -1 107
+r 1.034 8 7 message 500 ------- 0 8.42 7.42 -1 103
+v 1.0339999999999998 eval {set sim_annotation {Node 7 received {abc:yet another one}}}
++ 1.034 7 13 message 500 ------- 0 7.42 13.42 -1 108
+- 1.034 7 13 message 500 ------- 0 7.42 13.42 -1 108
++ 1.034 7 16 message 500 ------- 0 7.42 16.42 -1 109
+- 1.034 7 16 message 500 ------- 0 7.42 16.42 -1 109
+r 1.034 8 9 message 500 ------- 0 8.42 9.42 -1 104
+v 1.0339999999999998 eval {set sim_annotation {Node 9 received {abc:yet another one}}}
++ 1.034 9 0 message 500 ------- 0 9.42 0.42 -1 110
+- 1.034 9 0 message 500 ------- 0 9.42 0.42 -1 110
++ 1.034 9 10 message 500 ------- 0 9.42 10.42 -1 111
+- 1.034 9 10 message 500 ------- 0 9.42 10.42 -1 111
+r 1.034 23 14 message 500 ------- 0 23.42 14.42 -1 105
+v 1.0339999999999998 eval {set sim_annotation {Node 14 received {abc:yet another one}}}
++ 1.034 14 15 message 500 ------- 0 14.42 15.42 -1 112
+- 1.034 14 15 message 500 ------- 0 14.42 15.42 -1 112
++ 1.034 14 20 message 500 ------- 0 14.42 20.42 -1 113
+- 1.034 14 20 message 500 ------- 0 14.42 20.42 -1 113
+r 1.034 23 22 message 500 ------- 0 23.42 22.42 -1 106
+v 1.0339999999999998 eval {set sim_annotation {Node 22 received {abc:yet another one}}}
++ 1.034 22 21 message 500 ------- 0 22.42 21.42 -1 114
+- 1.034 22 21 message 500 ------- 0 22.42 21.42 -1 114
+r 1.034 25 26 message 500 ------- 0 25.42 26.42 -1 107
+v 1.0339999999999998 eval {set sim_annotation {Node 26 received {abc:yet another one}}}
++ 1.034 26 27 message 500 ------- 0 26.42 27.42 -1 115
+- 1.034 26 27 message 500 ------- 0 26.42 27.42 -1 115
+r 1.051 7 13 message 500 ------- 0 7.42 13.42 -1 108
+v 1.0509999999999997 eval {set sim_annotation {Node 13 received {abc:yet another one}}}
++ 1.051 13 12 message 500 ------- 0 13.42 12.42 -1 116
+- 1.051 13 12 message 500 ------- 0 13.42 12.42 -1 116
+r 1.051 7 16 message 500 ------- 0 7.42 16.42 -1 109
+v 1.0509999999999997 eval {set sim_annotation {Node 16 received {abc:yet another one}}}
++ 1.051 16 15 message 500 ------- 0 16.42 15.42 -1 117
+- 1.051 16 15 message 500 ------- 0 16.42 15.42 -1 117
++ 1.051 16 17 message 500 ------- 0 16.42 17.42 -1 118
+- 1.051 16 17 message 500 ------- 0 16.42 17.42 -1 118
+r 1.051 9 0 message 500 ------- 0 9.42 0.42 -1 110
+v 1.0509999999999997 eval {set sim_annotation {Node 0 received {abc:yet another one}}}
++ 1.051 0 1 message 500 ------- 0 0.42 1.42 -1 119
+- 1.051 0 1 message 500 ------- 0 0.42 1.42 -1 119
++ 1.051 0 6 message 500 ------- 0 0.42 6.42 -1 120
+- 1.051 0 6 message 500 ------- 0 0.42 6.42 -1 120
+r 1.051 9 10 message 500 ------- 0 9.42 10.42 -1 111
+v 1.0509999999999997 eval {set sim_annotation {Node 10 received {abc:yet another one}}}
++ 1.051 10 11 message 500 ------- 0 10.42 11.42 -1 121
+- 1.051 10 11 message 500 ------- 0 10.42 11.42 -1 121
++ 1.051 10 29 message 500 ------- 0 10.42 29.42 -1 122
+- 1.051 10 29 message 500 ------- 0 10.42 29.42 -1 122
+r 1.051 14 15 message 500 ------- 0 14.42 15.42 -1 112
+v 1.0509999999999997 eval {set sim_annotation {Node 15 received {abc:yet another one}}}
++ 1.051 15 16 message 500 ------- 0 15.42 16.42 -1 123
+- 1.051 15 16 message 500 ------- 0 15.42 16.42 -1 123
+r 1.051 14 20 message 500 ------- 0 14.42 20.42 -1 113
+v 1.0509999999999997 eval {set sim_annotation {Node 20 received {abc:yet another one}}}
++ 1.051 20 19 message 500 ------- 0 20.42 19.42 -1 124
+- 1.051 20 19 message 500 ------- 0 20.42 19.42 -1 124
+r 1.051 22 21 message 500 ------- 0 22.42 21.42 -1 114
+v 1.0509999999999997 eval {set sim_annotation {Node 21 received {abc:yet another one}}}
++ 1.051 21 30 message 500 ------- 0 21.42 30.42 -1 125
+- 1.051 21 30 message 500 ------- 0 21.42 30.42 -1 125
++ 1.051 21 27 message 500 ------- 0 21.42 27.42 -1 126
+- 1.051 21 27 message 500 ------- 0 21.42 27.42 -1 126
+r 1.051 26 27 message 500 ------- 0 26.42 27.42 -1 115
+v 1.0509999999999997 eval {set sim_annotation {Node 27 received {abc:yet another one}}}
++ 1.051 27 21 message 500 ------- 0 27.42 21.42 -1 127
+- 1.051 27 21 message 500 ------- 0 27.42 21.42 -1 127
+r 1.068 13 12 message 500 ------- 0 13.42 12.42 -1 116
+v 1.0679999999999996 eval {set sim_annotation {Node 12 received {abc:yet another one}}}
++ 1.068 12 11 message 500 ------- 0 12.42 11.42 -1 128
+- 1.068 12 11 message 500 ------- 0 12.42 11.42 -1 128
+r 1.068 16 15 message 500 ------- 0 16.42 15.42 -1 117
+v 1.0679999999999996 eval {set sim_annotation {Node 15 received redundant copy of message #abc}}
+r 1.068 16 17 message 500 ------- 0 16.42 17.42 -1 118
+v 1.0679999999999996 eval {set sim_annotation {Node 17 received {abc:yet another one}}}
++ 1.068 17 18 message 500 ------- 0 17.42 18.42 -1 129
+- 1.068 17 18 message 500 ------- 0 17.42 18.42 -1 129
+r 1.068 0 1 message 500 ------- 0 0.42 1.42 -1 119
+v 1.0679999999999996 eval {set sim_annotation {Node 1 received {abc:yet another one}}}
++ 1.068 1 2 message 500 ------- 0 1.42 2.42 -1 130
+- 1.068 1 2 message 500 ------- 0 1.42 2.42 -1 130
+r 1.068 0 6 message 500 ------- 0 0.42 6.42 -1 120
+v 1.0679999999999996 eval {set sim_annotation {Node 6 received {abc:yet another one}}}
++ 1.068 6 5 message 500 ------- 0 6.42 5.42 -1 131
+- 1.068 6 5 message 500 ------- 0 6.42 5.42 -1 131
+r 1.068 10 11 message 500 ------- 0 10.42 11.42 -1 121
+v 1.0679999999999996 eval {set sim_annotation {Node 11 received {abc:yet another one}}}
++ 1.068 11 12 message 500 ------- 0 11.42 12.42 -1 132
+- 1.068 11 12 message 500 ------- 0 11.42 12.42 -1 132
+r 1.068 10 29 message 500 ------- 0 10.42 29.42 -1 122
+v 1.0679999999999996 eval {set sim_annotation {Node 29 received {abc:yet another one}}}
++ 1.068 29 30 message 500 ------- 0 29.42 30.42 -1 133
+- 1.068 29 30 message 500 ------- 0 29.42 30.42 -1 133
++ 1.068 29 28 message 500 ------- 0 29.42 28.42 -1 134
+- 1.068 29 28 message 500 ------- 0 29.42 28.42 -1 134
+r 1.068 15 16 message 500 ------- 0 15.42 16.42 -1 123
+v 1.0679999999999996 eval {set sim_annotation {Node 16 received redundant copy of message #abc}}
+r 1.068 20 19 message 500 ------- 0 20.42 19.42 -1 124
+v 1.0679999999999996 eval {set sim_annotation {Node 19 received {abc:yet another one}}}
++ 1.068 19 18 message 500 ------- 0 19.42 18.42 -1 135
+- 1.068 19 18 message 500 ------- 0 19.42 18.42 -1 135
+r 1.068 21 30 message 500 ------- 0 21.42 30.42 -1 125
+v 1.0679999999999996 eval {set sim_annotation {Node 30 received {abc:yet another one}}}
++ 1.068 30 31 message 500 ------- 0 30.42 31.42 -1 136
+- 1.068 30 31 message 500 ------- 0 30.42 31.42 -1 136
++ 1.068 30 29 message 500 ------- 0 30.42 29.42 -1 137
+- 1.068 30 29 message 500 ------- 0 30.42 29.42 -1 137
+r 1.068 21 27 message 500 ------- 0 21.42 27.42 -1 126
+v 1.0679999999999996 eval {set sim_annotation {Node 27 received redundant copy of message #abc}}
+r 1.068 27 21 message 500 ------- 0 27.42 21.42 -1 127
+v 1.0679999999999996 eval {set sim_annotation {Node 21 received redundant copy of message #abc}}
+r 1.085 12 11 message 500 ------- 0 12.42 11.42 -1 128
+v 1.0849999999999995 eval {set sim_annotation {Node 11 received redundant copy of message #abc}}
+r 1.085 17 18 message 500 ------- 0 17.42 18.42 -1 129
+v 1.0849999999999995 eval {set sim_annotation {Node 18 received {abc:yet another one}}}
++ 1.085 18 19 message 500 ------- 0 18.42 19.42 -1 138
+- 1.085 18 19 message 500 ------- 0 18.42 19.42 -1 138
+r 1.085 1 2 message 500 ------- 0 1.42 2.42 -1 130
+v 1.0849999999999995 eval {set sim_annotation {Node 2 received {abc:yet another one}}}
++ 1.085 2 3 message 500 ------- 0 2.42 3.42 -1 139
+- 1.085 2 3 message 500 ------- 0 2.42 3.42 -1 139
++ 1.085 2 28 message 500 ------- 0 2.42 28.42 -1 140
+- 1.085 2 28 message 500 ------- 0 2.42 28.42 -1 140
+r 1.085 6 5 message 500 ------- 0 6.42 5.42 -1 131
+v 1.0849999999999995 eval {set sim_annotation {Node 5 received {abc:yet another one}}}
++ 1.085 5 4 message 500 ------- 0 5.42 4.42 -1 141
+- 1.085 5 4 message 500 ------- 0 5.42 4.42 -1 141
+r 1.085 11 12 message 500 ------- 0 11.42 12.42 -1 132
+v 1.0849999999999995 eval {set sim_annotation {Node 12 received redundant copy of message #abc}}
+r 1.085 29 30 message 500 ------- 0 29.42 30.42 -1 133
+v 1.0849999999999995 eval {set sim_annotation {Node 30 received redundant copy of message #abc}}
+r 1.085 29 28 message 500 ------- 0 29.42 28.42 -1 134
+v 1.0849999999999995 eval {set sim_annotation {Node 28 received {abc:yet another one}}}
++ 1.085 28 34 message 500 ------- 0 28.42 34.42 -1 142
+- 1.085 28 34 message 500 ------- 0 28.42 34.42 -1 142
++ 1.085 28 2 message 500 ------- 0 28.42 2.42 -1 143
+- 1.085 28 2 message 500 ------- 0 28.42 2.42 -1 143
+r 1.085 19 18 message 500 ------- 0 19.42 18.42 -1 135
+v 1.0849999999999995 eval {set sim_annotation {Node 18 received redundant copy of message #abc}}
+r 1.085 30 31 message 500 ------- 0 30.42 31.42 -1 136
+v 1.0849999999999995 eval {set sim_annotation {Node 31 received {abc:yet another one}}}
++ 1.085 31 32 message 500 ------- 0 31.42 32.42 -1 144
+- 1.085 31 32 message 500 ------- 0 31.42 32.42 -1 144
+r 1.085 30 29 message 500 ------- 0 30.42 29.42 -1 137
+v 1.0849999999999995 eval {set sim_annotation {Node 29 received redundant copy of message #abc}}
+r 1.102 18 19 message 500 ------- 0 18.42 19.42 -1 138
+v 1.1019999999999994 eval {set sim_annotation {Node 19 received redundant copy of message #abc}}
+r 1.102 2 3 message 500 ------- 0 2.42 3.42 -1 139
+v 1.1019999999999994 eval {set sim_annotation {Node 3 received {abc:yet another one}}}
++ 1.102 3 4 message 500 ------- 0 3.42 4.42 -1 145
+- 1.102 3 4 message 500 ------- 0 3.42 4.42 -1 145
+r 1.102 2 28 message 500 ------- 0 2.42 28.42 -1 140
+v 1.1019999999999994 eval {set sim_annotation {Node 28 received redundant copy of message #abc}}
+r 1.102 5 4 message 500 ------- 0 5.42 4.42 -1 141
+v 1.1019999999999994 eval {set sim_annotation {Node 4 received {abc:yet another one}}}
++ 1.102 4 3 message 500 ------- 0 4.42 3.42 -1 146
+- 1.102 4 3 message 500 ------- 0 4.42 3.42 -1 146
+r 1.102 28 34 message 500 ------- 0 28.42 34.42 -1 142
+v 1.1019999999999994 eval {set sim_annotation {Node 34 received {abc:yet another one}}}
++ 1.102 34 33 message 500 ------- 0 34.42 33.42 -1 147
+- 1.102 34 33 message 500 ------- 0 34.42 33.42 -1 147
+r 1.102 28 2 message 500 ------- 0 28.42 2.42 -1 143
+v 1.1019999999999994 eval {set sim_annotation {Node 2 received redundant copy of message #abc}}
+r 1.102 31 32 message 500 ------- 0 31.42 32.42 -1 144
+v 1.1019999999999994 eval {set sim_annotation {Node 32 received {abc:yet another one}}}
++ 1.102 32 33 message 500 ------- 0 32.42 33.42 -1 148
+- 1.102 32 33 message 500 ------- 0 32.42 33.42 -1 148
+r 1.119 3 4 message 500 ------- 0 3.42 4.42 -1 145
+v 1.1189999999999993 eval {set sim_annotation {Node 4 received redundant copy of message #abc}}
+r 1.119 4 3 message 500 ------- 0 4.42 3.42 -1 146
+v 1.1189999999999993 eval {set sim_annotation {Node 3 received redundant copy of message #abc}}
+r 1.119 34 33 message 500 ------- 0 34.42 33.42 -1 147
+v 1.1189999999999993 eval {set sim_annotation {Node 33 received {abc:yet another one}}}
++ 1.119 33 32 message 500 ------- 0 33.42 32.42 -1 149
+- 1.119 33 32 message 500 ------- 0 33.42 32.42 -1 149
+r 1.119 32 33 message 500 ------- 0 32.42 33.42 -1 148
+v 1.1189999999999993 eval {set sim_annotation {Node 33 received redundant copy of message #abc}}
+r 1.136 33 32 message 500 ------- 0 33.42 32.42 -1 149
+v 1.1359999999999992 eval {set sim_annotation {Node 32 received redundant copy of message #abc}}

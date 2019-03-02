@@ -1,0 +1,880 @@
+n -t * -s 0  -x 0 -y 0 -Z 0 -z 20  -v circle -c black
+n -t * -s 1  -x 200 -y 0 -Z 0 -z 20  -v circle -c black
+n -t * -s 2  -x 0 -y 160 -Z 0 -z 20  -v circle -c black
+n -t * -s 3  -x 200 -y 160 -Z 0 -z 20  -v circle -c black
+n -t * -s 4  -x 360 -y 230 -Z 0 -z 20  -v circle -c black
+n -t * -s 5  -x 560 -y 230 -Z 0 -z 20  -v circle -c black
+n -t * -s 6  -x 360 -y 390 -Z 0 -z 20  -v circle -c black
+n -t * -s 7  -x 560 -y 390 -Z 0 -z 20  -v circle -c black
+n -t * -s 8  -x 0 -y 460 -Z 0 -z 20  -v circle -c black
+n -t * -s 9  -x 200 -y 460 -Z 0 -z 20  -v circle -c black
+n -t * -s 10  -x 0 -y 620 -Z 0 -z 20  -v circle -c black
+n -t * -s 11  -x 200 -y 620 -Z 0 -z 20  -v circle -c black
+n -t * -s 12  -x 360 -y 690 -Z 0 -z 20  -v circle -c black
+n -t * -s 13  -x 560 -y 690 -Z 0 -z 20  -v circle -c black
+n -t * -s 14  -x 360 -y 850 -Z 0 -z 20  -v circle -c black
+n -t * -s 15  -x 560 -y 850 -Z 0 -z 20  -v circle -c black
+n -t * -s 16  -x 0 -y 920 -Z 0 -z 20  -v circle -c black
+n -t * -s 17  -x 200 -y 920 -Z 0 -z 20  -v circle -c black
+n -t * -s 18  -x 0 -y 1080 -Z 0 -z 20  -v circle -c black
+n -t * -s 19  -x 200 -y 1080 -Z 0 -z 20  -v circle -c black
+n -t * -s 20  -x 360 -y 1150 -Z 0 -z 20  -v circle -c black
+n -t * -s 21  -x 560 -y 1150 -Z 0 -z 20  -v circle -c black
+n -t * -s 22  -x 360 -y 1310 -Z 0 -z 20  -v circle -c black
+n -t * -s 23  -x 560 -y 1310 -Z 0 -z 20  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 980 -y 1640
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+v -t 0.2 -e sim_annotation 0.2 1 1 sending message 1
++ -t 0.200000000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k AGT 
+- -t 0.200000000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k AGT
+h -t 0.200000000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k AGT
++ -t 0.203625000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC 
+- -t 0.203625000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+h -t 0.203625000 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+r -t 0.205225533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+r -t 0.205225667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205225854 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205225934 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205226405 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205226424 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205226533 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205226672 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+d -t 0.205226769 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k MAC
+r -t 0.205250533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k AGT
+v -t 0.205250533333333 -e sim_annotation 0.205250533333333 2 3 received {1:first message} from 1
+v -t 0.205250533333333 -e sim_annotation 0.205250533333333 3 3 sending message 1
++ -t 0.205250533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k AGT 
+- -t 0.205250533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k AGT
+h -t 0.205250533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k AGT
+r -t 0.205250667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 0 -k AGT
+v -t 0.205250666666667 -e sim_annotation 0.205250666666667 4 0 received {1:first message} from 1
+v -t 0.205250666666667 -e sim_annotation 0.205250666666667 5 0 sending message 1
++ -t 0.205250667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k AGT 
+- -t 0.205250667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k AGT
+h -t 0.205250667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k AGT
++ -t 0.207975533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC 
+- -t 0.207975533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+h -t 0.207975533 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
++ -t 0.208875667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC 
+- -t 0.208875667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+h -t 0.208875667 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+r -t 0.209576115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+d -t 0.209576467 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+d -t 0.209576756 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+d -t 0.209576957 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+d -t 0.209577067 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+d -t 0.209577205 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k MAC
+r -t 0.209601115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 1 -k AGT
+v -t 0.209601115474973 -e sim_annotation 0.209601115474973 6 4 received {1:first message} from 3
+v -t 0.209601115474973 -e sim_annotation 0.209601115474973 7 4 sending message 1
++ -t 0.209601115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT 
+- -t 0.209601115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT
+h -t 0.209601115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT
+d -t 0.210476200 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+d -t 0.210476333 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+d -t 0.210476520 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+d -t 0.210477200 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
+d -t 0.210477339 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 2 -k MAC
++ -t 0.213126115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC 
+- -t 0.213126115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+h -t 0.213126115 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+r -t 0.214726649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+r -t 0.214726698 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+r -t 0.214726782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214726969 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727049 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727049 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727338 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727521 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727539 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727539 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727649 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727787 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+d -t 0.214727885 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k MAC
+r -t 0.214751649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT
+v -t 0.214751648808307 -e sim_annotation 0.214751648808307 8 6 received {1:first message} from 4
+v -t 0.214751648808307 -e sim_annotation 0.214751648808307 9 6 sending message 1
++ -t 0.214751649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k AGT 
+- -t 0.214751649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k AGT
+h -t 0.214751649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k AGT
+r -t 0.214751698 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT
+v -t 0.214751697616613 -e sim_annotation 0.214751697616613 10 3 received redundant message 1 from 4
+r -t 0.214751782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 3 -k AGT
+v -t 0.21475178214164 -e sim_annotation 0.21475178214164 11 5 received {1:first message} from 4
+v -t 0.21475178214164 -e sim_annotation 0.21475178214164 12 5 sending message 1
++ -t 0.214751782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k AGT 
+- -t 0.214751782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k AGT
+h -t 0.214751782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k AGT
++ -t 0.217076649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC 
+- -t 0.217076649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+h -t 0.217076649 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
++ -t 0.217576782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC 
+- -t 0.217576782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+h -t 0.217576782 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+r -t 0.218677231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218677583 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218677871 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218678073 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218678073 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218678182 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218678321 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+d -t 0.218678418 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k MAC
+r -t 0.218702231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 4 -k AGT
+v -t 0.218702230949946 -e sim_annotation 0.218702230949946 13 9 received {1:first message} from 6
+v -t 0.218702230949946 -e sim_annotation 0.218702230949946 14 9 sending message 1
++ -t 0.218702231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT 
+- -t 0.218702231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT
+h -t 0.218702231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT
+d -t 0.219177315 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219177449 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219177636 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219178005 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219178206 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219178315 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
+d -t 0.219178454 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 5 -k MAC
++ -t 0.219427231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC 
+- -t 0.219427231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+h -t 0.219427231 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+r -t 0.221027764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+r -t 0.221027813 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+r -t 0.221027898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028085 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028165 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028165 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028231 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028433 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028453 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028636 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028655 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028655 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028764 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028764 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028903 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221028903 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+d -t 0.221029000 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k MAC
+r -t 0.221052764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT
+v -t 0.22105276428328 -e sim_annotation 0.22105276428328 15 11 received {1:first message} from 9
+v -t 0.22105276428328 -e sim_annotation 0.22105276428328 16 11 sending message 1
++ -t 0.221052764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT 
+- -t 0.221052764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT
+h -t 0.221052764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT
+r -t 0.221052813 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT
+v -t 0.221052813091586 -e sim_annotation 0.221052813091586 17 6 received redundant message 1 from 9
+r -t 0.221052898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 6 -k AGT
+v -t 0.221052897616613 -e sim_annotation 0.221052897616613 18 8 received {1:first message} from 9
+v -t 0.221052897616613 -e sim_annotation 0.221052897616613 19 8 sending message 1
++ -t 0.221052898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k AGT 
+- -t 0.221052898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k AGT
+h -t 0.221052898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k AGT
++ -t 0.221977764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC 
+- -t 0.221977764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+h -t 0.221977764 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
++ -t 0.223577898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC 
+- -t 0.223577898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+h -t 0.223577898 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+r -t 0.223578298 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+r -t 0.223578346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+r -t 0.223578431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223578698 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223578698 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223578764 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223578966 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223578987 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579169 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579188 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579188 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579298 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579436 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+d -t 0.223579533 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k MAC
+r -t 0.223603298 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT
+v -t 0.223603297616613 -e sim_annotation 0.223603297616613 20 9 received redundant message 1 from 11
+r -t 0.223603346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT
+v -t 0.22360334642492 -e sim_annotation 0.22360334642492 21 12 received {1:first message} from 11
+v -t 0.22360334642492 -e sim_annotation 0.22360334642492 22 12 sending message 1
++ -t 0.223603346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k AGT 
+- -t 0.223603346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k AGT
+h -t 0.223603346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k AGT
+r -t 0.223603431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 7 -k AGT
+v -t 0.223603430949946 -e sim_annotation 0.223603430949946 23 10 received {1:first message} from 11
+v -t 0.223603430949946 -e sim_annotation 0.223603430949946 24 10 sending message 1
++ -t 0.223603431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k AGT 
+- -t 0.223603431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k AGT
+h -t 0.223603431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k AGT
++ -t 0.224428346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC 
+- -t 0.224428346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+h -t 0.224428346 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+r -t 0.225178431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+d -t 0.225178898 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+d -t 0.225179099 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+d -t 0.225179431 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+d -t 0.225179570 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k MAC
+r -t 0.225203431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 8 -k AGT
+v -t 0.225203430949946 -e sim_annotation 0.225203430949946 25 10 received redundant message 1 from 8
++ -t 0.225828431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC 
+- -t 0.225828431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+h -t 0.225828431 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.226028880 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+r -t 0.226029013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+d -t 0.226029200 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+d -t 0.226029548 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+d -t 0.226029880 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+d -t 0.226030018 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+d -t 0.226030018 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k MAC
+r -t 0.226054013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 9 -k AGT
+v -t 0.226054013091586 -e sim_annotation 0.226054013091586 26 13 received {1:first message} from 12
+v -t 0.226054013091586 -e sim_annotation 0.226054013091586 27 13 sending message 1
++ -t 0.226054013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k AGT 
+- -t 0.226054013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k AGT
+h -t 0.226054013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k AGT
+d -t 0.227428964 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429098 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429285 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429431 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429633 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429855 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429964 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227429964 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227430103 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227430103 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
+d -t 0.227430200 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 10 -k MAC
++ -t 0.229979013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC 
+- -t 0.229979013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+h -t 0.229979013 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+r -t 0.231579546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+r -t 0.231579680 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231579867 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580013 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580215 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580236 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580437 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580437 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580546 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580546 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580685 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580685 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+d -t 0.231580782 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k MAC
+r -t 0.231604546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k AGT
+v -t 0.23160454642492 -e sim_annotation 0.23160454642492 28 15 received {1:first message} from 13
+v -t 0.23160454642492 -e sim_annotation 0.23160454642492 29 15 sending message 1
++ -t 0.231604546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k AGT 
+- -t 0.231604546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k AGT
+h -t 0.231604546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k AGT
+r -t 0.231604680 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 11 -k AGT
+v -t 0.231604679758253 -e sim_annotation 0.231604679758253 30 12 received redundant message 1 from 13
++ -t 0.233229546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC 
+- -t 0.233229546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+h -t 0.233229546 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+r -t 0.234830080 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+r -t 0.234830213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830400 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830546 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830748 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830769 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830970 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234830970 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234831080 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234831080 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234831218 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234831218 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+d -t 0.234831316 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k MAC
+r -t 0.234855080 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k AGT
+v -t 0.234855079758253 -e sim_annotation 0.234855079758253 31 13 received redundant message 1 from 15
+r -t 0.234855213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 12 -k AGT
+v -t 0.234855213091586 -e sim_annotation 0.234855213091586 32 14 received {1:first message} from 15
+v -t 0.234855213091586 -e sim_annotation 0.234855213091586 33 14 sending message 1
++ -t 0.234855213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT 
+- -t 0.234855213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT
+h -t 0.234855213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT
++ -t 0.236080213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC 
+- -t 0.236080213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+h -t 0.236080213 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+r -t 0.237680746 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+r -t 0.237680795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+r -t 0.237680880 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681067 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681147 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681147 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681213 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681415 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681436 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681618 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681637 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681637 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681746 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681746 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681885 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681885 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+d -t 0.237681982 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k MAC
+r -t 0.237705746 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT
+v -t 0.23770574642492 -e sim_annotation 0.23770574642492 34 12 received redundant message 1 from 14
+r -t 0.237705795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT
+v -t 0.237705795233226 -e sim_annotation 0.237705795233226 35 17 received {1:first message} from 14
+v -t 0.237705795233226 -e sim_annotation 0.237705795233226 36 17 sending message 1
++ -t 0.237705795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT 
+- -t 0.237705795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT
+h -t 0.237705795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT
+r -t 0.237705880 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 13 -k AGT
+v -t 0.237705879758253 -e sim_annotation 0.237705879758253 37 15 received redundant message 1 from 14
++ -t 0.240830795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC 
+- -t 0.240830795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+h -t 0.240830795 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+r -t 0.242431329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+r -t 0.242431377 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+r -t 0.242431462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242431649 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242431729 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242431729 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242431795 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242431997 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432018 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432200 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432219 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432219 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432329 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432467 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+d -t 0.242432564 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k MAC
+r -t 0.242456329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT
+v -t 0.242456328566559 -e sim_annotation 0.242456328566559 38 19 received {1:first message} from 17
+v -t 0.242456328566559 -e sim_annotation 0.242456328566559 39 19 sending message 1
++ -t 0.242456329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT 
+- -t 0.242456329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT
+h -t 0.242456329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT
+r -t 0.242456377 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT
+v -t 0.242456377374866 -e sim_annotation 0.242456377374866 40 14 received redundant message 1 from 17
+r -t 0.242456462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 14 -k AGT
+v -t 0.242456461899893 -e sim_annotation 0.242456461899893 41 16 received {1:first message} from 17
+v -t 0.242456461899893 -e sim_annotation 0.242456461899893 42 16 sending message 1
++ -t 0.242456462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k AGT 
+- -t 0.242456462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k AGT
+h -t 0.242456462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k AGT
++ -t 0.243581462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC 
+- -t 0.243581462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+h -t 0.243581462 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+r -t 0.245181995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+r -t 0.245182129 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182316 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182462 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182664 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182684 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182886 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182886 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245182995 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245183134 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+d -t 0.245183231 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k MAC
+r -t 0.245206995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k AGT
+v -t 0.245206995233226 -e sim_annotation 0.245206995233226 43 18 received {1:first message} from 16
+v -t 0.245206995233226 -e sim_annotation 0.245206995233226 44 18 sending message 1
++ -t 0.245206995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k AGT 
+- -t 0.245206995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k AGT
+h -t 0.245206995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k AGT
+r -t 0.245207129 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 16 -k AGT
+v -t 0.245207128566559 -e sim_annotation 0.245207128566559 45 17 received redundant message 1 from 16
++ -t 0.245681329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC 
+- -t 0.245681329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+h -t 0.245681329 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+r -t 0.247281862 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+r -t 0.247281911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+r -t 0.247281995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282182 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282262 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282262 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282551 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282734 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282753 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282753 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247282862 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247283001 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+d -t 0.247283098 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k MAC
+r -t 0.247306862 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT
+v -t 0.247306861899893 -e sim_annotation 0.247306861899893 46 17 received redundant message 1 from 19
+r -t 0.247306911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT
+v -t 0.247306910708199 -e sim_annotation 0.247306910708199 47 20 received {1:first message} from 19
+v -t 0.247306910708199 -e sim_annotation 0.247306910708199 48 20 sending message 1
++ -t 0.247306911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k AGT 
+- -t 0.247306911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k AGT
+h -t 0.247306911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k AGT
+r -t 0.247306995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 15 -k AGT
+v -t 0.247306995233226 -e sim_annotation 0.247306995233226 49 18 received redundant message 1 from 19
++ -t 0.248531995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC 
+- -t 0.248531995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC
+h -t 0.248531995 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC
++ -t 0.249731911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC 
+- -t 0.249731911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+h -t 0.249731911 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+r -t 0.250132529 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC
+d -t 0.250133529 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC
+d -t 0.250133667 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k MAC
+r -t 0.250157529 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 17 -k AGT
+v -t 0.250157528566559 -e sim_annotation 0.250157528566559 50 16 received redundant message 1 from 18
+d -t 0.251332444 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251332493 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+r -t 0.251332577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251332764 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251332845 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251332911 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251333113 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251333133 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251333444 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+d -t 0.251333583 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k MAC
+r -t 0.251357577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 18 -k AGT
+v -t 0.251357577374866 -e sim_annotation 0.251357577374866 51 21 received {1:first message} from 20
+v -t 0.251357577374866 -e sim_annotation 0.251357577374866 52 21 sending message 1
++ -t 0.251357577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k AGT 
+- -t 0.251357577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k AGT
+h -t 0.251357577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k AGT
++ -t 0.252382577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC 
+- -t 0.252382577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+h -t 0.252382577 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+r -t 0.253983111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+r -t 0.253983244 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253983431 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253983577 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253983779 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253983800 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253984001 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253984111 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+d -t 0.253984249 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k MAC
+r -t 0.254008111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k AGT
+v -t 0.254008110708199 -e sim_annotation 0.254008110708199 53 23 received {1:first message} from 21
+v -t 0.254008110708199 -e sim_annotation 0.254008110708199 54 23 sending message 1
++ -t 0.254008111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k AGT 
+- -t 0.254008111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k AGT
+h -t 0.254008111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k AGT
+r -t 0.254008244 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 19 -k AGT
+v -t 0.254008244041533 -e sim_annotation 0.254008244041533 55 20 received redundant message 1 from 21
++ -t 0.256233111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC 
+- -t 0.256233111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+h -t 0.256233111 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+r -t 0.257833644 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+r -t 0.257833777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+d -t 0.257833964 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+d -t 0.257834535 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+d -t 0.257834644 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+d -t 0.257834783 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+d -t 0.257834880 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k MAC
+r -t 0.257858644 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k AGT
+v -t 0.257858644041533 -e sim_annotation 0.257858644041533 56 21 received redundant message 1 from 23
+r -t 0.257858777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 20 -k AGT
+v -t 0.257858777374866 -e sim_annotation 0.257858777374866 57 22 received {1:first message} from 23
+v -t 0.257858777374866 -e sim_annotation 0.257858777374866 58 22 sending message 1
++ -t 0.257858777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k AGT 
+- -t 0.257858777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k AGT
+h -t 0.257858777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k AGT
++ -t 0.258783777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC 
+- -t 0.258783777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+h -t 0.258783777 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+r -t 0.260384311 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+r -t 0.260384444 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260384631 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260384711 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260385183 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260385201 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260385311 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260385449 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+d -t 0.260385547 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k MAC
+r -t 0.260409311 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k AGT
+v -t 0.260409310708199 -e sim_annotation 0.260409310708199 59 20 received redundant message 1 from 22
+r -t 0.260409444 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 21 -k AGT
+v -t 0.260409444041533 -e sim_annotation 0.260409444041533 60 23 received redundant message 1 from 22
+v -t 0.4 -e sim_annotation 0.4 61 12 sending message 2
++ -t 0.400000000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT 
+- -t 0.400000000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT
+h -t 0.400000000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT
++ -t 0.400925000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC 
+- -t 0.400925000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+h -t 0.400925000 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+r -t 0.405725533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+r -t 0.405725582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+r -t 0.405725667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405725854 -s 15 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405725934 -s 17 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405725934 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726000 -s 6 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726202 -s 7 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726222 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726405 -s 19 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726424 -s 16 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726424 -s 8 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726533 -s 4 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726533 -s 20 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726672 -s 5 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726672 -s 21 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+d -t 0.405726769 -s 18 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k MAC
+r -t 0.405750533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT
+v -t 0.405750533333333 -e sim_annotation 0.405750533333333 62 14 received {2:some big message} from 12
+v -t 0.405750533333333 -e sim_annotation 0.405750533333333 63 14 sending message 2
++ -t 0.405750533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k AGT 
+- -t 0.405750533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k AGT
+h -t 0.405750533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k AGT
+r -t 0.405750582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT
+v -t 0.40575058214164 -e sim_annotation 0.40575058214164 64 11 received {2:some big message} from 12
+v -t 0.40575058214164 -e sim_annotation 0.40575058214164 65 11 sending message 2
++ -t 0.405750582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k AGT 
+- -t 0.405750582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k AGT
+h -t 0.405750582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k AGT
+r -t 0.405750667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 22 -k AGT
+v -t 0.405750666666667 -e sim_annotation 0.405750666666667 66 13 received {2:some big message} from 12
+v -t 0.405750666666667 -e sim_annotation 0.405750666666667 67 13 sending message 2
++ -t 0.405750667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k AGT 
+- -t 0.405750667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k AGT
+h -t 0.405750667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k AGT
++ -t 0.406275582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC 
+- -t 0.406275582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+h -t 0.406275582 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
++ -t 0.406375533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC 
+- -t 0.406375533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+h -t 0.406375533 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
++ -t 0.408875667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC 
+- -t 0.408875667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC
+h -t 0.408875667 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC
+r -t 0.411076115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+r -t 0.411076249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+d -t 0.411076436 -s 8 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+d -t 0.411077115 -s 3 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+d -t 0.411077254 -s 2 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k MAC
+r -t 0.411101115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k AGT
+v -t 0.411101115474973 -e sim_annotation 0.411101115474973 68 9 received {2:some big message} from 11
+v -t 0.411101115474973 -e sim_annotation 0.411101115474973 69 9 sending message 2
++ -t 0.411101115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k AGT 
+- -t 0.411101115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k AGT
+h -t 0.411101115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k AGT
+r -t 0.411101249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 24 -k AGT
+v -t 0.411101248808307 -e sim_annotation 0.411101248808307 70 10 received {2:some big message} from 11
+v -t 0.411101248808307 -e sim_annotation 0.411101248808307 71 10 sending message 2
++ -t 0.411101249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k AGT 
+- -t 0.411101249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k AGT
+h -t 0.411101249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k AGT
+d -t 0.411176115 -s 17 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+d -t 0.411176467 -s 19 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+d -t 0.411176756 -s 16 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+d -t 0.411176957 -s 18 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+d -t 0.411177067 -s 22 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
+d -t 0.411177205 -s 23 -d -1 -p message -e 600 -c 2 -a 0 -i 23 -k MAC
++ -t 0.411226115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC 
+- -t 0.411226115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+h -t 0.411226115 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.413676200 -s 15 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC
+d -t 0.413677200 -s 21 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC
+d -t 0.413677339 -s 20 -d -1 -p message -e 600 -c 2 -a 0 -i 25 -k MAC
++ -t 0.414026249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC 
+- -t 0.414026249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+h -t 0.414026249 -s 10 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.416026698 -s 6 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027049 -s 4 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027338 -s 7 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027539 -s 5 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027539 -s 13 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027649 -s 1 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.416027787 -s 0 -d -1 -p message -e 600 -c 2 -a 0 -i 26 -k MAC
+d -t 0.418826782 -s 8 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418826915 -s 11 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827103 -s 9 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827249 -s 16 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827451 -s 17 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827471 -s 12 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827673 -s 14 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827782 -s 2 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827782 -s 18 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827921 -s 3 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+d -t 0.418827921 -s 19 -d -1 -p message -e 600 -c 2 -a 0 -i 27 -k MAC
+v -t 0.7 -e sim_annotation 0.7 72 22 sending message 3
++ -t 0.700000000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k AGT 
+- -t 0.700000000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k AGT
+h -t 0.700000000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k AGT
++ -t 0.701025000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC 
+- -t 0.701025000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+h -t 0.701025000 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+r -t 0.702625533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+r -t 0.702625667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702625854 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702625934 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702626405 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702626424 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702626533 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702626672 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+d -t 0.702626769 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k MAC
+r -t 0.702650533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k AGT
+v -t 0.702650533333333 -e sim_annotation 0.702650533333333 73 20 received {3:another one} from 22
+v -t 0.702650533333333 -e sim_annotation 0.702650533333333 74 20 sending message 3
++ -t 0.702650533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k AGT 
+- -t 0.702650533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k AGT
+h -t 0.702650533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k AGT
+r -t 0.702650667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 28 -k AGT
+v -t 0.702650666666667 -e sim_annotation 0.702650666666667 75 23 received {3:another one} from 22
+v -t 0.702650666666667 -e sim_annotation 0.702650666666667 76 23 sending message 3
++ -t 0.702650667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k AGT 
+- -t 0.702650667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k AGT
+h -t 0.702650667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k AGT
++ -t 0.703775667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC 
+- -t 0.703775667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+h -t 0.703775667 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+r -t 0.705376200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+r -t 0.705376333 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+d -t 0.705376520 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+d -t 0.705377091 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+d -t 0.705377200 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+d -t 0.705377339 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+d -t 0.705377436 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k MAC
+r -t 0.705401200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k AGT
+v -t 0.7054012 -e sim_annotation 0.7054012 77 21 received {3:another one} from 23
+v -t 0.7054012 -e sim_annotation 0.7054012 78 21 sending message 3
++ -t 0.705401200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k AGT 
+- -t 0.705401200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k AGT
+h -t 0.705401200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k AGT
+r -t 0.705401333 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 30 -k AGT
+v -t 0.705401333333334 -e sim_annotation 0.705401333333334 79 22 received redundant message 3 from 23
++ -t 0.705475533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC 
+- -t 0.705475533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC
+h -t 0.705475533 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC
++ -t 0.705726200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC 
+- -t 0.705726200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+h -t 0.705726200 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+r -t 0.707076115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC
+d -t 0.707076756 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC
+d -t 0.707076957 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k MAC
+r -t 0.707101115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 29 -k AGT
+v -t 0.707101115474974 -e sim_annotation 0.707101115474974 80 19 received {3:another one} from 20
+v -t 0.707101115474974 -e sim_annotation 0.707101115474974 81 19 sending message 3
++ -t 0.707101115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT 
+- -t 0.707101115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT
+h -t 0.707101115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT
+d -t 0.707326733 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707326867 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327054 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327200 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327402 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327624 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327733 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
+d -t 0.707327872 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 31 -k MAC
++ -t 0.709026115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC 
+- -t 0.709026115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+h -t 0.709026115 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+r -t 0.710626649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+r -t 0.710626698 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+r -t 0.710626782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710626969 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627049 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627049 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627338 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627521 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627539 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627539 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627649 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627787 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+d -t 0.710627885 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k MAC
+r -t 0.710651649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT
+v -t 0.710651648808307 -e sim_annotation 0.710651648808307 82 17 received {3:another one} from 19
+v -t 0.710651648808307 -e sim_annotation 0.710651648808307 83 17 sending message 3
++ -t 0.710651649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT 
+- -t 0.710651649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT
+h -t 0.710651649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT
+r -t 0.710651698 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT
+v -t 0.710651697616614 -e sim_annotation 0.710651697616614 84 20 received redundant message 3 from 19
+r -t 0.710651782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 32 -k AGT
+v -t 0.71065178214164 -e sim_annotation 0.71065178214164 85 18 received {3:another one} from 19
+v -t 0.71065178214164 -e sim_annotation 0.71065178214164 86 18 sending message 3
++ -t 0.710651782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k AGT 
+- -t 0.710651782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k AGT
+h -t 0.710651782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k AGT
++ -t 0.711176649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC 
+- -t 0.711176649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+h -t 0.711176649 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+r -t 0.712777182 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+r -t 0.712777231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+r -t 0.712777315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777503 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777583 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777583 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777649 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777851 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712777871 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778054 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778073 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778073 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778182 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778321 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+d -t 0.712778418 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k MAC
+r -t 0.712802182 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT
+v -t 0.712802182141641 -e sim_annotation 0.712802182141641 87 19 received redundant message 3 from 17
+r -t 0.712802231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT
+v -t 0.712802230949947 -e sim_annotation 0.712802230949947 88 14 received {3:another one} from 17
+v -t 0.712802230949947 -e sim_annotation 0.712802230949947 89 14 sending message 3
++ -t 0.712802231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k AGT 
+- -t 0.712802231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k AGT
+h -t 0.712802231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k AGT
+r -t 0.712802315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 33 -k AGT
+v -t 0.712802315474974 -e sim_annotation 0.712802315474974 90 16 received {3:another one} from 17
+v -t 0.712802315474974 -e sim_annotation 0.712802315474974 91 16 sending message 3
++ -t 0.712802315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k AGT 
+- -t 0.712802315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k AGT
+h -t 0.712802315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k AGT
++ -t 0.714027315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k MAC 
+- -t 0.714027315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k MAC
+h -t 0.714027315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 36 -k MAC
++ -t 0.714376782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k MAC 
+- -t 0.714376782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k MAC
+h -t 0.714376782 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k MAC
++ -t 0.715527231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC 
+- -t 0.715527231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+h -t 0.715527231 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.715977315 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 34 -k MAC
+d -t 0.717127764 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717127813 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+r -t 0.717127898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128085 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128165 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128165 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128231 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128433 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128636 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128655 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128764 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128764 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128903 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717128903 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+d -t 0.717129000 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k MAC
+r -t 0.717152898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 35 -k AGT
+v -t 0.717152897616614 -e sim_annotation 0.717152897616614 92 15 received {3:another one} from 14
+v -t 0.717152897616614 -e sim_annotation 0.717152897616614 93 15 sending message 3
++ -t 0.717152898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k AGT 
+- -t 0.717152898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k AGT
+h -t 0.717152898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k AGT
++ -t 0.718877898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC 
+- -t 0.718877898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+h -t 0.718877898 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+r -t 0.720478431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+r -t 0.720478564 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720478751 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720478898 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479099 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479120 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479322 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479322 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479431 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479431 -s 23 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479570 -s 22 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479570 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+d -t 0.720479667 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k MAC
+r -t 0.720503431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k AGT
+v -t 0.720503430949948 -e sim_annotation 0.720503430949948 94 13 received {3:another one} from 15
+v -t 0.720503430949948 -e sim_annotation 0.720503430949948 95 13 sending message 3
++ -t 0.720503431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k AGT 
+- -t 0.720503431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k AGT
+h -t 0.720503431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k AGT
+r -t 0.720503564 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 37 -k AGT
+v -t 0.720503564283281 -e sim_annotation 0.720503564283281 96 14 received redundant message 3 from 15
++ -t 0.723728431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC 
+- -t 0.723728431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+h -t 0.723728431 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+r -t 0.725328964 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+r -t 0.725329098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329285 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329431 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329633 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329653 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329855 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329855 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329964 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725329964 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725330103 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725330103 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+d -t 0.725330200 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k MAC
+r -t 0.725353964 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k AGT
+v -t 0.725353964283281 -e sim_annotation 0.725353964283281 97 15 received redundant message 3 from 13
+r -t 0.725354098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 38 -k AGT
+v -t 0.725354097616614 -e sim_annotation 0.725354097616614 98 12 received {3:another one} from 13
+v -t 0.725354097616614 -e sim_annotation 0.725354097616614 99 12 sending message 3
++ -t 0.725354098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT 
+- -t 0.725354098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT
+h -t 0.725354098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT
++ -t 0.727679098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC 
+- -t 0.727679098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+h -t 0.727679098 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+r -t 0.729279631 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+r -t 0.729279680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+r -t 0.729279764 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729279951 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280032 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280032 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280098 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280299 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280320 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280503 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280522 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280522 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280631 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280631 -s 20 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280770 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280770 -s 21 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+d -t 0.729280867 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k MAC
+r -t 0.729304631 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT
+v -t 0.729304630949948 -e sim_annotation 0.729304630949948 100 14 received redundant message 3 from 12
+r -t 0.729304680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT
+v -t 0.729304679758254 -e sim_annotation 0.729304679758254 101 11 received {3:another one} from 12
+v -t 0.729304679758254 -e sim_annotation 0.729304679758254 102 11 sending message 3
++ -t 0.729304680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT 
+- -t 0.729304680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT
+h -t 0.729304680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT
+r -t 0.729304764 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 39 -k AGT
+v -t 0.729304764283281 -e sim_annotation 0.729304764283281 103 13 received redundant message 3 from 12
++ -t 0.732629680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC 
+- -t 0.732629680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+h -t 0.732629680 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+r -t 0.734230213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+r -t 0.734230262 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+r -t 0.734230346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230534 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230614 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230614 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230680 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230882 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734230902 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231085 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231104 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231104 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231213 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231213 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231352 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231352 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+d -t 0.734231449 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k MAC
+r -t 0.734255213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT
+v -t 0.734255213091588 -e sim_annotation 0.734255213091588 104 9 received {3:another one} from 11
+v -t 0.734255213091588 -e sim_annotation 0.734255213091588 105 9 sending message 3
++ -t 0.734255213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k AGT 
+- -t 0.734255213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k AGT
+h -t 0.734255213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k AGT
+r -t 0.734255262 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT
+v -t 0.734255261899894 -e sim_annotation 0.734255261899894 106 12 received redundant message 3 from 11
+r -t 0.734255346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 40 -k AGT
+v -t 0.734255346424921 -e sim_annotation 0.734255346424921 107 10 received {3:another one} from 11
+v -t 0.734255346424921 -e sim_annotation 0.734255346424921 108 10 sending message 3
++ -t 0.734255346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k AGT 
+- -t 0.734255346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k AGT
+h -t 0.734255346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k AGT
++ -t 0.736080346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k MAC 
+- -t 0.736080346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k MAC
+h -t 0.736080346 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k MAC
++ -t 0.737380213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC 
+- -t 0.737380213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+h -t 0.737380213 -s 9 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.737681880 -s 18 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k MAC
+d -t 0.737682018 -s 19 -d -1 -p message -e 200 -c 2 -a 0 -i 42 -k MAC
+d -t 0.738980746 -s 11 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738980795 -s 6 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738980880 -s 8 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981067 -s 10 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981147 -s 4 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981147 -s 12 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981213 -s 3 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981415 -s 2 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981436 -s 7 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981618 -s 14 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981637 -s 5 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981637 -s 13 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981746 -s 1 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981746 -s 17 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981885 -s 16 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981885 -s 0 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC
+d -t 0.738981982 -s 15 -d -1 -p message -e 200 -c 2 -a 0 -i 41 -k MAC

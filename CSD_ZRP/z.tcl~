@@ -1,0 +1,150 @@
+set opt(chan) Channel/WirelessChannel
+set opt(prop) Propagation/TwoRayGround
+set opt(netif) Phy/WirelessPhy
+set opt(mac) Mac/NULL
+#set opt(mac) Mac/802_11
+set opt(ifq) Queue/DropTail/PriQueue
+set opt(ll) LL
+set opt(ant) Antenna/OmniAntenna
+set opt(x) 1300 ;# X dimension of the topography
+set opt(y) 1300 ;# Y dimension of the topography
+set opt(ifqlen) 20 ;# max packet in ifq(effectless)
+set opt(seed) 0.0
+set opt(tr) pktdemo.tr ;# trace file
+set opt(nam) pktdemo.nam ;# nam trace file
+set opt(adhocRouting) ZRP
+set opt(nn) 20 ;# how many nodes are simulated
+set opt(stop) 10 ;# simulation time
+set val(cp) “example.scen”
+set val(trfile) “example.traffic”
+#
+=====================================================================
+# Other default settings
+# for the ifq
+Queue set limit_ 50
+
+LL set mindelay_ 50us
+LL set delay_ 25us
+LL set bandwidth_ 0
+LL set off_prune_ 0
+LL set off_CtrMcast_ 0
+Agent/Null set sport_ 0
+Agent/Null set dport_ 0
+Agent/CBR set sport_ 0
+Agent/CBR set dport_ 0
+Agent/TCPSink set sport_ 0
+Agent/TCPSink set dport_ 0
+Agent/TCP set sport_ 0
+Agent/TCP set dport_ 0
+Agent/TCP set packetSize_ 512
+Queue/DropTail/PriQueue set Prefer_Routing_Protocols 1
+
+# unity gain, omni-directional antennas
+# set up the antennas to be centered in the node and 1.5 meters above
+it
+Antenna/OmniAntenna set X_ 0
+Antenna/OmniAntenna set Y_ 0
+Antenna/OmniAntenna set Z_ 1.5
+Antenna/OmniAntenna set Gt_ 1.0
+Antenna/OmniAntenna set Gr_ 1.0
+
+# Initialize the SharedMedia interface with parameters to make
+# it work like the 914MHz Lucent WaveLAN DSSS radio interface
+
+Phy/WirelessPhy set CPThresh_ 10.0
+Phy/WirelessPhy set CSThresh_ 1.559e-11
+Phy/WirelessPhy set RXThresh_ 3.652e-10
+Phy/WirelessPhy set Rb_ 2*1e6
+Phy/WirelessPhy set Pt_ 0.2818
+Phy/WirelessPhy set freq_ 914e+6
+Phy/WirelessPhy set L_ 1.0
+
+# create simulator instance
+
+set ns_ [new Simulator]
+
+# set wireless channel, radio-model and topography objects
+
+set wchan [new $opt(chan)]
+set wprop [new $opt(prop)]
+set wtopo [new Topography]
+
+# create trace object for ns and nam
+set tracefd [open $opt(tr) w]
+set namtrace [open $opt(nam) w]
+$ns_ trace-all $tracefd
+$ns_ namtrace-all-wireless $namtrace $opt(x) $opt(y)
+
+# define topology
+$wtopo load_flatgrid $opt(x) $opt(y)
+#$wprop topography $wtopo
+#
+# Create God
+#
+set god_ [create-god $opt(nn)]
+#
+# define how node should be created
+#
+
+#global node setting
+# -ifqLen $opt(ifqlen) \
+# -qlen $opt(ifqlen) \
+
+$ns_ node-config -adhocRouting $opt(adhocRouting) \
+-llType $opt(ll) \
+-macType $opt(mac) \
+-ifqType $opt(ifq) \
+-ifqLen $opt(ifqlen) \
+-antType $opt(ant) \
+-propType $opt(prop) \
+-phyType $opt(netif) \
+-channelType $opt(chan) \
+-topoInstance $wtopo \
+-agentTrace ON\
+-routerTrace ON \
+-movementTrace OFF\
+-macTrace OFF
+
+#
+# Create the specified number of nodes [$opt(nn)] and “attach” them
+# to the channel.
+
+for {set i 0} {$i < $opt(nn) } {incr i} {
+set node_($i) [$ns_ node]
+$node_($i) random-motion 0 ;# disable random motion
+}
+
+#
+# Define node movement model
+#
+puts "Loading connection pattern…"
+#
+# scen-670×670-50-600-20-0
+#
+source $val(cp)
+#
+# Define traffic model
+#
+puts "Loading traffic file"
+source $val(trfile)
+
+# Define node initial position in nam
+for {set i 0} {$i < $opt(nn)} {incr i} {
+# 20 defines the node size in nam, must adjust it according to
+your scenario
+# The function must be called after mobility model is defined
+$ns_ initial_node_pos $node_($i) 250
+}
+
+#
+# Tell nodes when the simulation ends
+#
+for {set i 0} {$i < $opt(nn) } {incr i} {
+$ns_ at $opt(stop).000000001 "$node_($i) reset";
+}
+# tell nam the simulation stop time
+$ns_ at $opt(stop) "$ns_ nam-end-wireless $opt(stop)"
+$ns_ at $opt(stop).000000001 "puts \"NS EXITING…\" ; $ns_ halt"
+
+puts "Starting Simulation…"
+$ns_ run

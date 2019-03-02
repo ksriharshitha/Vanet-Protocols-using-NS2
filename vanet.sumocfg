@@ -1,0 +1,13 @@
+<configuration> 
+
+<input> 
+<net-file value="vanet.net.xml"/> 
+<route-files value="vanet.rou.xml"/> 
+</input> 
+
+<time> 
+<begin value="2"/> 
+<end value="10000"/> 
+</time> 
+
+</configuration>
